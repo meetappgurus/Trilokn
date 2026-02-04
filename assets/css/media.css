@@ -459,15 +459,23 @@
 		font-size: 16px !important;
 	}
 
+	.why_main .comparison-table td {
+		font-size: 16px;
+	}
+
 	/* end */
 	/* unlocked section */
+	.unlocked-section .unlocked-main-top {
+		margin-bottom: 70px;
+	}
+
 	.unlocked-section .unlocked-top {
 		margin-bottom: 25px;
 	}
 
 	.unlocked-section .main-title {
 		font-size: 95px;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 
 	.unlocked-section .main-subtitle {
@@ -833,6 +841,7 @@
 
 	.unlocked-section .metrics-grid {
 		gap: 1.5rem;
+		margin-bottom: 60px;
 	}
 
 	.unlocked-section .sla-badge .sla-white {
@@ -849,6 +858,18 @@
 
 	.unlocked-section .slider-label {
 		font-size: 10px;
+	}
+
+	.unlocked-section .cta-buttons {
+		margin-top: 60px;
+	}
+
+	.unlocked-section .main-title {
+		font-size: 80px;
+	}
+
+	.unlocked-section .main-subtitle {
+		font-size: 16px;
 	}
 
 	/* end */
@@ -986,16 +1007,13 @@
 	}
 
 	/* table section start */
-	.comparison-section .why_title {
-		padding-bottom: 50px;
-	}
-
 	.comparison-section .section-title {
 		font-size: 40px;
 	}
 
 	.comparison-section .section-subtitle {
 		font-size: 16px;
+		margin-bottom: 0;
 	}
 
 	.comparison-table th {
@@ -1039,6 +1057,10 @@
 
 	.comparison-table {
 		min-width: 950px;
+	}
+
+	.why_main .comparison-table td {
+		font-size: 14px;
 	}
 
 	/* hub section */
@@ -1206,13 +1228,21 @@
 
 	.unlocked-section .cta-buttons .btn-primary-white,
 	.unlocked-section .btn-secondary-dark {
-		padding: 16px;
-		font-size: 15px;
-		border-radius: 15px;
+		padding: 12px;
+		font-size: 14px;
+		border-radius: 12px;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		-ms-border-radius: 12px;
+		-o-border-radius: 12px;
 	}
 
 	.unlocked-section .monthly-estimate {
 		font-size: 19px;
+	}
+
+	.unlocked-section .unlocked-main-top {
+		margin-bottom: 50px;
 	}
 
 	/* end */
@@ -1249,7 +1279,7 @@
 	}
 
 	.comparison-table td {
-		font-size: 14px !important;
+		font-size: 14px;
 	}
 
 	.comparison-section .section-title {
@@ -1336,6 +1366,12 @@
 
 	.global-scale .enterprise-bottom .shortlisting-text {
 		font-size: 11px;
+	}
+
+	/* end */
+	/* unlocked section */
+	.unlocked-section .metrics-grid {
+		margin-bottom: 50px;
 	}
 
 	/* end */
@@ -1458,7 +1494,9 @@
 	}
 
 	.rightleft-line::before,
-	.rightleft-line::after {
+	.rightleft-line::after,
+	.unlocked-section .rightleft-line::before,
+	.unlocked-section .rightleft-line::after {
 		width: 2rem;
 		margin: 0 10px;
 	}
@@ -1518,6 +1556,10 @@
 		margin: 30px 0 0;
 	}
 
+	.why_main .comparison-table td {
+		font-size: 12px;
+	}
+
 	/* end */
 
 	/* dna section */
@@ -1565,6 +1607,74 @@
 	.quote-icon .bi-quote {
 		width: 30px;
 		height: 30px;
+	}
+
+	/* end */
+
+	/* unlocked section */
+	.unlocked-section .main-subtitle {
+		font-size: 15px;
+	}
+
+	.unlocked-section .metrics-grid {
+		margin-bottom: 40px;
+	}
+
+	.unlocked-section .main-title {
+		font-size: 60px;
+	}
+
+	.unlocked-section .total-savings-card {
+		padding: 2rem 1rem;
+		border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+	}
+
+	.unlocked-section .sla-badge {
+		border-radius: 13px;
+		-webkit-border-radius: 13px;
+		-moz-border-radius: 13px;
+		-ms-border-radius: 13px;
+		-o-border-radius: 13px;
+	}
+
+	.unlocked-section .control-card,
+	.unlocked-section .results-inner,
+	.unlocked-section .results-card {
+		border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+	}
+
+	.unlocked-section .results-inner {
+		padding: 2rem;
+	}
+
+	.unlocked-section .metrics-grid {
+		margin-bottom: 40px;
+	}
+
+	.unlocked-section .cta-buttons {
+		grid-template-columns: 1fr;
+		gap: 16px;
+		margin-top: 36px;
+	}
+
+	.unlocked-section .total-label {
+		letter-spacing: 3px;
+	}
+
+	.unlocked-section .monthly-estimate {
+		font-size: 16px;
+	}
+
+	.unlocked-section .total-amount {
+		font-size: 35px;
 	}
 
 	/* end */

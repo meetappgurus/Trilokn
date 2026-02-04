@@ -866,7 +866,9 @@ textarea.form-control {
 }
 
 .label {
-  display: inline-block;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
   font-weight: 900;
   font-size: 11px;
   letter-spacing: 0.3em;
@@ -1194,9 +1196,12 @@ h2.display {
   color: var(--theme-primary);
   font-size: 12px;
   border: none;
-  transform: translateY(16px);
   opacity: 0;
   transition: transform 500ms var(--ease-out), opacity 500ms var(--ease-out);
+  -webkit-transition: transform 500ms var(--ease-out), opacity 500ms var(--ease-out);
+  -moz-transition: transform 500ms var(--ease-out), opacity 500ms var(--ease-out);
+  -ms-transition: transform 500ms var(--ease-out), opacity 500ms var(--ease-out);
+  -o-transition: transform 500ms var(--ease-out), opacity 500ms var(--ease-out);
 }
 
 .pool-card:hover .shortlist-btn {
@@ -1706,6 +1711,10 @@ h2.display {
   border: 1px solid rgba(233, 30, 140, 0.3);
   border-radius: 50px;
   margin-bottom: 2rem;
+}
+
+.process-section .process-main .process-main-top {
+  margin-bottom: 60px;
 }
 
 .process-main-top .process-top-small {
