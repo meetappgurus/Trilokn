@@ -1705,5 +1705,18 @@
 		padding: 10px 12px;
 	}
 
+
+	.unlocked-section .total-amount {
+		font-size: 30px;
+	}
+	.unlocked-section .total-label {
+		letter-spacing: 2px;
+		font-size: 12px;
+	}
+	
+	.unlocked-section .monthly-estimate {
+		font-size: 14px;
+	}
+
 	/* end */
 }

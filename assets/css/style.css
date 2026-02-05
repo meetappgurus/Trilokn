@@ -2122,6 +2122,7 @@ h2.display {
 /* end */
 
 /* unlocked css start */
+
 .unlocked-section {
   background-color: rgba(2, 6, 23, 1);
   position: relative;
@@ -2246,9 +2247,18 @@ h2.display {
   box-shadow: 0 10px 30px rgba(217, 26, 96, 0.2);
 }
 
+.unlocked-section .tier-button.active .checkmark {
+  display: block;
+  opacity: 1;
+}
+
 .unlocked-section .checkmark {
   width: 1rem;
   height: 1rem;
+  fill: currentColor;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
 }
 
 .unlocked-section .slider-value {
