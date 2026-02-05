@@ -309,7 +309,7 @@
 
 	/* hero section */
 	.hero {
-		padding-top: 140px;
+		padding-top: 30px;
 		padding-bottom: 60px;
 	}
 
@@ -888,10 +888,6 @@
 		margin: 0 auto 32px;
 	}
 
-	.hero {
-		padding-top: 110px;
-	}
-
 	.hero .logo-wrapper {
 		justify-content: center;
 		margin: 32px 0 32px;
@@ -929,6 +925,10 @@
 	}
 
 	/* end */
+	.headerheight {
+		padding-top: 75px;
+	}
+
 	.container {
 		max-width: 100%;
 		padding: 0 30px;
@@ -1380,10 +1380,6 @@
 @media (max-width: 575px) {
 
 	/* hero section */
-	.hero {
-		padding-top: 100px;
-	}
-
 	.hero .hero-text {
 		font-size: 14px;
 		margin: 0 auto 20px;

@@ -673,11 +673,15 @@ textarea.form-control {
   margin-top: 30px;
 }
 
+.headerheight {
+  padding-top: 110px;
+}
+
 /* end */
 
 /* style of code */
 .hero {
-  padding-top: 160px;
+  padding-top: 50px;
   padding-bottom: 80px;
 }
 
