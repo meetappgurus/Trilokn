@@ -24,17 +24,17 @@
 }
 
 .page-404-main .line {
-    fill: none;
+    fill: rgba(67, 49, 133, 10%);
     stroke: #433185;
     stroke-width: 12;
     stroke-dasharray: 200 100;
 }
 
 .page-404-main .anim {
-    -webkit-animation: swirls 2s linear infinite;
-    -moz-animation: swirls 2s linear infinite;
-    -o-animation: swirls 2s linear infinite;
-    animation: swirls 2s linear infinite;
+    -webkit-animation: swirls 2.3s linear infinite;
+    -moz-animation: swirls 2.3s linear infinite;
+    -o-animation: swirls 2.3s linear infinite;
+    animation: swirls 2.3s linear infinite;
 }
 
 @keyframes swirls {
