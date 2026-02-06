@@ -93,6 +93,17 @@ $(document).ready(function () {
       io.observe(el);
     });
   })();
+
+
+  // Companies Logo Slick Slider - services page
+  $(".techCompanySlider").slick({
+    slidesToShow: "auto",
+    slidesToScroll: 1,
+    // autoplay: true,
+    // autoplaySpeed: 2000,
+    // infinite: true,
+    speed: 600,
+  });
 });
 
 // year update js
@@ -120,41 +131,41 @@ tierButtons.forEach((button) => {
 // ROI Calculation (example)
 const tierRates = {
   junior: {
-      salary: 65000,
-      baseFeeReduction: 11049.6,
-      baseOpportunity: 71749.6,
-      baseOpex: 8775
+    salary: 65000,
+    baseFeeReduction: 11049.6,
+    baseOpportunity: 71749.6,
+    baseOpex: 8775,
   },
-  'mid-level': {
-      salary: 125000,
-      baseFeeReduction: 26562.6,
-      baseOpportunity: 137834.6,
-      baseOpex: 16875
+  "mid-level": {
+    salary: 125000,
+    baseFeeReduction: 26562.6,
+    baseOpportunity: 137834.6,
+    baseOpex: 16875,
   },
   senior: {
-      salary: 165000,
-      baseFeeReduction: 35062.6,
-      baseOpportunity: 182134.6,
-      baseOpex: 22275
+    salary: 165000,
+    baseFeeReduction: 35062.6,
+    baseOpportunity: 182134.6,
+    baseOpex: 22275,
   },
-  'lead-architect': {
-      salary: 220000,
-      baseFeeReduction: 46762.6,
-      baseOpportunity: 242834.6,
-      baseOpex: 29700
-  }
+  "lead-architect": {
+    salary: 220000,
+    baseFeeReduction: 46762.6,
+    baseOpportunity: 242834.6,
+    baseOpex: 29700,
+  },
 };
 
 // Current selected tier (default)
-let currentTier = 'senior';
+let currentTier = "senior";
 
 // Calculate ROI based on experts and tier
 function calculateROI(experts, tier = currentTier) {
   const rates = tierRates[tier];
-  
+
   if (!rates) {
-      console.error('Invalid tier:', tier);
-      return;
+    console.error("Invalid tier:", tier);
+    return;
   }
 
   const feeReduction = Math.round(rates.baseFeeReduction * experts);
@@ -164,63 +175,71 @@ function calculateROI(experts, tier = currentTier) {
   const monthly = Math.round(total / 12);
 
   // Update market salary
-  const salaryElement = document.querySelector('.salary-amount');
+  const salaryElement = document.querySelector(".salary-amount");
   if (salaryElement) {
-      salaryElement.textContent = "$" + rates.salary.toLocaleString();
+    salaryElement.textContent = "$" + rates.salary.toLocaleString();
   }
 
   // Update metrics
-  document.getElementById("feeReduction").textContent = "$" + feeReduction.toLocaleString();
-  document.getElementById("opportunityBenefit").textContent = "$" + opportunity.toLocaleString();
-  document.getElementById("opexOptimization").textContent = "$" + opex.toLocaleString();
-  document.getElementById("totalSavings").textContent = "$" + total.toLocaleString();
-  document.getElementById("monthlySavings").textContent = "≈ $" + monthly.toLocaleString() + " Estimated Savings / Month";
+  document.getElementById("feeReduction").textContent =
+    "$" + feeReduction.toLocaleString();
+  document.getElementById("opportunityBenefit").textContent =
+    "$" + opportunity.toLocaleString();
+  document.getElementById("opexOptimization").textContent =
+    "$" + opex.toLocaleString();
+  document.getElementById("totalSavings").textContent =
+    "$" + total.toLocaleString();
+  document.getElementById("monthlySavings").textContent =
+    "≈ $" + monthly.toLocaleString() + " Estimated Savings / Month";
 }
 
 // Initialize on DOM load
-document.addEventListener('DOMContentLoaded', function() {
-  const slider = document.getElementById('velocitySlider');
-  const valueDisplay = document.getElementById('velocityValue');
-  const tierButtons = document.querySelectorAll('.tier-button');
-  
+document.addEventListener("DOMContentLoaded", function () {
+  const slider = document.getElementById("velocitySlider");
+  const valueDisplay = document.getElementById("velocityValue");
+  const tierButtons = document.querySelectorAll(".tier-button");
+
   // Slider functionality
   if (slider && valueDisplay) {
-      slider.addEventListener('input', function() {
-          valueDisplay.textContent = this.value;
-          calculateROI(parseInt(this.value), currentTier);
-      });
+    slider.addEventListener("input", function () {
+      valueDisplay.textContent = this.value;
+      calculateROI(parseInt(this.value), currentTier);
+    });
   }
-  
+
   // Tier button functionality
   if (tierButtons.length > 0) {
-      tierButtons.forEach((button, index) => {
-          button.addEventListener('click', function() {
-              // Remove active class from all buttons
-              tierButtons.forEach(btn => btn.classList.remove('active'));
-              
-              // Add active class to clicked button
-              this.classList.add('active');
-              
-              // Determine tier based on button text
-              const buttonText = this.textContent.trim().toLowerCase();
-              if (buttonText.includes('junior')) {
-                  currentTier = 'junior';
-              } else if (buttonText.includes('mid-level')) {
-                  currentTier = 'mid-level';
-              } else if (buttonText.includes('senior')) {
-                  currentTier = 'senior';
-              } else if (buttonText.includes('lead') || buttonText.includes('architect')) {
-                  currentTier = 'lead-architect';
-              }
-              
-              // Recalculate with current slider value
-              const experts = slider ? parseInt(slider.value) : 5;
-              calculateROI(experts, currentTier);
-          });
+    tierButtons.forEach((button, index) => {
+      button.addEventListener("click", function () {
+        // Remove active class from all buttons
+        tierButtons.forEach((btn) => btn.classList.remove("active"));
+
+        // Add active class to clicked button
+        this.classList.add("active");
+
+        // Determine tier based on button text
+        const buttonText = this.textContent.trim().toLowerCase();
+        if (buttonText.includes("junior")) {
+          currentTier = "junior";
+        } else if (buttonText.includes("mid-level")) {
+          currentTier = "mid-level";
+        } else if (buttonText.includes("senior")) {
+          currentTier = "senior";
+        } else if (
+          buttonText.includes("lead") ||
+          buttonText.includes("architect")
+        ) {
+          currentTier = "lead-architect";
+        }
+
+        // Recalculate with current slider value
+        const experts = slider ? parseInt(slider.value) : 5;
+        calculateROI(experts, currentTier);
       });
+    });
   }
-  
+
   // Initial calculation
-  calculateROI(5, 'senior');
+  calculateROI(5, "senior");
 });
 // unlocked section js end
