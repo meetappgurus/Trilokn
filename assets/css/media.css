@@ -1253,6 +1253,11 @@
 	.unlocked-section .unlocked-main-top {
 		margin-bottom: 50px;
 	}
+	
+	/* .unlocked-section .floating-card{max-width: 750px;display: none;} */
+	.unlocked-section .floating-card {
+        display: none !important;
+    }
 
 	/* end */
 	/* certificate section css */
@@ -1384,6 +1389,7 @@
 	}
 
 	/* end */
+	
 	/* unlocked section */
 	.unlocked-section .metrics-grid {
 		margin-bottom: 50px;
@@ -1534,7 +1540,7 @@
 	}
 
 	.process-section .timeline-item {
-		margin-bottom: 45px;
+		margin-bottom: 30px;
 	}
 
 	.process-section h4.phase-title.white_text {
@@ -1709,7 +1715,12 @@
 	/* end */
 }
 
-@media (max-width: 481px) {}
+@media (max-width: 481px) {
+	.header-label-text {
+        display: block;
+        margin-top: 0.25rem;
+    }
+}
 
 @media (max-width: 380px) {
 	.font-84 {
@@ -1734,7 +1745,7 @@
 		padding: 10px 12px;
 	}
 
-
+	/* unlocked section */
 	.unlocked-section .total-amount {
 		font-size: 30px;
 	}

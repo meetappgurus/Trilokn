@@ -99,7 +99,6 @@ $(document).ready(function () {
 document.getElementById("currentYear").textContent = new Date().getFullYear();
 
 // unlocked section js start
-
 // Slider functionality
 const slider = document.getElementById("velocitySlider");
 const valueDisplay = document.getElementById("velocityValue");
