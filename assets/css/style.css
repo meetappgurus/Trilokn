@@ -510,9 +510,9 @@ button {
 .btn-secondary-custom {
   background: var(--theme-secondary);
   color: var(--theme-white);
-  padding: 14px 28px;
-  border-radius: 10px;
-  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-weight: 600;
   /* box-shadow: 0 10px 25px rgba(124, 58, 237, 0.3); */
   /* border: 2px solid transparent; */
 }
@@ -2784,7 +2784,7 @@ h2.display {
   box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 25%);
 
 }
-
+.elite .service-heroimg,
 .service-herobanner .service-heroimg {
   position: relative;
   overflow: hidden;
@@ -3391,10 +3391,6 @@ a.network-read:hover {
 
 
 /*  collaboration section start */
-.collaboration {
-  background-color: var(--theme-gray-800);
-}
-
 .collaboration .coll-card {
   background: var(--theme-white);
   color: var(--theme-black);
@@ -3418,15 +3414,15 @@ a.network-read:hover {
 }
 
 .collaboration .collaboration-list ul {
-  list-style: none;
-  padding: 0;
+  /* list-style: none; */
+  list-style-type: disc;
+  padding: 20px;
   margin: 0;
 }
 
 .collaboration .collaboration-list li {
   padding: 8px 0;
   position: relative;
-  padding-left: 24px;
 }
 
 .collaboration .btn-black-custom {
@@ -3450,7 +3446,14 @@ a.network-read:hover {
 /*  collaboration section end */
 
 /* 5-stage section css start */
-.elite-card-col {
+.elite-card .elite-desc {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  line-height: 1.5;
+}
+
+.elite-card-col{
   width: 20%;
 }
 
@@ -3459,6 +3462,8 @@ a.network-read:hover {
   border-radius: 30px;
   background: #f8fafc;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: relative;
+  z-index: 1;
 }
 
 .elite-card:hover {
@@ -3474,8 +3479,13 @@ a.network-read:hover {
   top: 20px;
   font-size: 70px;
   line-height: 1;
-  z-index: 1;
+  z-index: -1;
   transition: all 0.3s ease;
+  opacity: 0.4;
+}
+
+.elite-num:hover{
+  opacity: 1;
 }
 
 .elite-main-bottom {
@@ -3499,9 +3509,19 @@ a.network-read:hover {
 }
 
 .elite-left-num span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--theme-secondary);
 }
 
+.elite .service-heroimg {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  max-width: 570px;
+  margin-left: auto;
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 25%);
+  border: 6px solid #000;
+  border-radius: 24px;
+}
 /* 5-stage section css end */
