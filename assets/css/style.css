@@ -3008,11 +3008,14 @@ h2.display {
   padding: 0;
 }
 
+.strategic-advantage .core-vertical-box:hover {
+  background-color: transparent;
+  box-shadow: none;
+}
+
 .strategic-advantage .strategic-adv-img .fill-badge {
   background-color: var(--theme-secondary);
   padding: 28px;
-  /*border: 1px solid #F1F5F9;
-  */
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
