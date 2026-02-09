@@ -312,6 +312,43 @@
 	}
 
 	/* end */
+
+	/* client stories section - service */
+	.client-card img {
+		max-height: 540px;
+		border-radius: 22px;
+		-webkit-border-radius: 22px;
+		-moz-border-radius: 22px;
+		-ms-border-radius: 22px;
+		-o-border-radius: 22px;
+	}
+
+	.client-card {
+		border-radius: 22px;
+		-webkit-border-radius: 22px;
+		-moz-border-radius: 22px;
+		-ms-border-radius: 22px;
+		-o-border-radius: 22px;
+	}
+
+	.client-stories .client-card-wrapper {
+		gap: 22px;
+	}
+
+	/* end */
+
+	/* hiring table section - service */
+	.custom-table tbody td {
+		padding: 28px 28px;
+		font-size: 14px;
+	}
+
+	.custom-table thead th {
+		padding: 24px 28px;
+		font-size: 15px;
+	}
+
+	/* end */
 }
 
 @media (max-width: 1499px) {
@@ -598,6 +635,33 @@
 	.strategic-advantage .strategic-adv-img .fill-badge>p {
 		font-size: 25px;
 		line-height: 1;
+	}
+
+	/* end */
+
+	/* client stories section - service */
+	.client-stories .client-card-wrapper {
+		gap: 18px;
+		margin: 50px 0 60px;
+	}
+
+	.client-card-bottom {
+		padding: 22px;
+	}
+
+	.client-card img {
+		max-height: 500px;
+	}
+
+	/* end */
+
+	/* core ecosystem section - service */
+	.core-ecosystem .core-vertical-box {
+		padding: 29px 30px;
+	}
+
+	.core-ecosystem .core-vertical-box h4 {
+		font-size: 16px;
 	}
 
 	/* end */
@@ -1152,6 +1216,53 @@
 	}
 
 	/* end */
+
+	/* client stories section - service */
+	.client-card {
+		border-radius: 18px;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+		-ms-border-radius: 18px;
+		-o-border-radius: 18px;
+	}
+
+	.client-card img {
+		max-height: 400px;
+		border-radius: 18px;
+		opacity: 1;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+		-ms-border-radius: 18px;
+		-o-border-radius: 18px;
+	}
+
+	.success-story-company {
+		font-size: 12px;
+	}
+
+	.success-story-badge {
+		line-height: normal;
+		font-size: 9px;
+		padding: 4px 7px;
+	}
+
+	.success-story-title {
+		margin: 12px 0 4px;
+		font-size: 14px !important;
+		line-height: normal;
+	}
+
+	.success-story-duration span {
+		font-size: 10px;
+	}
+
+	.client-stories .client-card-wrapper {
+		gap: 16px;
+		margin: 40px 0 50px;
+	}
+
+	/* end */
+
 }
 
 /*=========================================================
@@ -1626,6 +1737,46 @@
 	}
 
 	/* end */
+
+	/* hiring table section - service */
+	.hiring-table-wrap {
+		margin: 40px 0 0;
+	}
+
+	.custom-table thead th,
+	.custom-table tbody td {
+		white-space: nowrap;
+		padding: 22px 20px;
+	}
+
+	.custom-table thead th {
+		font-size: 14px;
+	}
+
+	.custom-table tbody td {
+		font-size: 13px;
+	}
+
+	/* end */
+
+	/* core ecosystem section - service */
+	.core-ecosystem .core-vertical-box {
+		padding: 26px 20px;
+	}
+
+	.core-ecosystem .core-vertical-box h4 {
+		font-size: 15px;
+	}
+
+	.core-ecosystem .core-vertical-box p {
+		font-size: 13px !important;
+	}
+
+	.w-middle {
+		width: 100%;
+	}
+
+	/* end */
 }
 
 /*=========================================================
@@ -1767,6 +1918,22 @@
 	/* core verticals section - service */
 	.core-verticals .core-vertical-box {
 		padding: 20px;
+	}
+
+	/* end */
+
+	/* client stories section - service */
+	.client-card img {
+		max-height: 500px;
+		object-position: top;
+	}
+
+	.client-stories .client-card-wrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.success-story-title {
+		font-size: 16px !important;
 	}
 
 	/* end */
@@ -2227,7 +2394,34 @@
 		-moz-border-radius: 20px;
 		-ms-border-radius: 20px;
 		-o-border-radius: 20px;
-}
+	}
+
+	/* end */
+
+	/* client stories section - service */
+	.client-card img {
+		max-height: 400px;
+	}
+
+	/* end */
+
+	/* hiring table section - service */
+	.custom-table thead th,
+	.custom-table tbody td {
+		padding: 16px 16px;
+	}
+
+	.custom-table tbody td {
+		font-size: 12px;
+	}
+
+	.custom-table thead th {
+		font-size: 13px;
+	}
+
+	.hiring-table-wrap {
+		margin: 30px 0 0;
+	}
 
 	/* end */
 }

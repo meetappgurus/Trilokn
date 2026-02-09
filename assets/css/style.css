@@ -3203,9 +3203,19 @@ h2.display {
 
 .core-ecosystem .core-vertical-box {
   text-align: center;
+  padding: 36px 40px;
 }
 
-/* end */
+.core-ecosystem .core-vertical-box .core-v-img {
+  box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.1),
+    0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.core-ecosystem .core-vertical-box h4 {
+  font-weight: bold;
+}
+
+/* end */  
 
 /* hiring table section - service */
 .hiring-table-wrap {
@@ -3276,6 +3286,7 @@ h2.display {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 /* .accordion-header */
 /* border: 1px solid #000;
   border-radius: 20px; */
@@ -3285,7 +3296,7 @@ h2.display {
   border-radius: 12px;
   margin-bottom: 16px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  
+
 }
 
 .accordion .accordion-button {
@@ -3336,6 +3347,7 @@ h2.display {
 .accordion .accordion-collapse {
   /* border: none; */
 }
+
 /* overview section services end */
 
 
@@ -3371,13 +3383,16 @@ h2.display {
   margin: 20px 0px 10px;
 }
 
-a.network-read:hover {text-decoration: underline;}
+a.network-read:hover {
+  text-decoration: underline;
+}
+
 /* network section css end */
 
 
 /*  collaboration section start */
 .collaboration {
-  background-color: var( --theme-gray-800);
+  background-color: var(--theme-gray-800);
 }
 
 .collaboration .coll-card {
@@ -3431,12 +3446,14 @@ a.network-read:hover {text-decoration: underline;}
   color: var(--white);
   transform: scale(1.02);
 }
+
 /*  collaboration section end */
 
 /* 5-stage section css start */
-.elite-card-col{
+.elite-card-col {
   width: 20%;
 }
+
 .elite-card {
   padding: 48px 30px 30px;
   border-radius: 30px;
@@ -3444,7 +3461,7 @@ a.network-read:hover {text-decoration: underline;}
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.elite-card:hover{
+.elite-card:hover {
   transform: translateZ(4px);
   background: var(--white);
 }
@@ -3461,7 +3478,7 @@ a.network-read:hover {text-decoration: underline;}
   transition: all 0.3s ease;
 }
 
-.elite-main-bottom{
+.elite-main-bottom {
   padding: 60px;
   background: var(--theme-black);
   border-radius: 30px;
@@ -3486,4 +3503,5 @@ a.network-read:hover {text-decoration: underline;}
   font-weight: 700;
   color: var(--theme-secondary);
 }
+
 /* 5-stage section css end */
