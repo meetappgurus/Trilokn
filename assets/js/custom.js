@@ -94,15 +94,37 @@ $(document).ready(function () {
     });
   })();
 
-
   // Companies Logo Slick Slider - services page
   $(".techCompanySlider").slick({
     slidesToShow: "auto",
-    slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 2000,
-    // infinite: true,
-    speed: 600,
+    autoplay: false,
+    autoplaySpeed: 0,
+    speed: 5000,
+    cssEase: "linear",
+    pauseOnHover: false,
+    arrows: false,
+    dots: false,
+
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 4,
+          autoplay: true,
+          infinite: true,
+          variableWidth: true,
+        },
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 2,
+          autoplay: true,
+          infinite: true,
+          variableWidth: true,
+        },
+      },
+    ],
   });
 });
 

@@ -705,6 +705,7 @@ textarea.form-control {
 }
 
 .hero .badge-custom {
+  text-transform: uppercase;
   background: var(--theme-light-purple);
   color: var(--theme-primary);
   font-size: 11px;
@@ -2663,6 +2664,7 @@ h2.display {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--theme-gray-900);
+  text-align: start;
 }
 
 .service-herobanner .stats-text strong {
@@ -2725,8 +2727,7 @@ h2.display {
 }
 
 .service-herobanner.hero .hero-image {
-  min-height: 560px;
-  aspect-ratio: 1920 / 560;
+  max-height: 560px;
   object-position: 0 24%;
   mix-blend-mode: luminosity;
 }
@@ -2943,7 +2944,7 @@ h2.display {
   margin-bottom: 0;
 }
 
-.core-vertical-btn {
+.core-vertical-btn.btn {
   background-color: transparent;
   color: var(--theme-primary);
   font-weight: 700;
@@ -2951,7 +2952,7 @@ h2.display {
   padding: 20px 0 0;
 }
 
-.core-vertical-btn:hover {
+.core-vertical-btn.btn:hover {
   background-color: transparent;
   color: var(--theme-secondary);
 }
@@ -3007,6 +3008,7 @@ h2.display {
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -3058,6 +3060,14 @@ h2.display {
   color: var(--white);
   letter-spacing: 1px;
   line-height: 1.3;
+}
+
+.strategic-advantage .core-vertical-box h4 {
+  font-size: 16px;
+}
+
+.strategic-advantage .core-vertical-box p {
+  line-height: 1.4;
 }
 
 /* end */
