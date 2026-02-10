@@ -912,6 +912,19 @@
 
 	/* end */
 
+	/* overview css start */
+	.accordion-header .accordion-button {
+		font-size: 16px;
+		padding: 16px 20px;
+		border-radius: 20px !important;
+	}
+	.accordion .accordion-body {
+		padding: 20px;
+		font-size: 14px;
+	}
+
+	/* overview css end */
+
 
 }
 
@@ -1471,6 +1484,17 @@
 	}
 
 	/* end */
+	/* overview css start */
+	.accordion-header .accordion-button {
+		padding: 14px 16px;
+		border-radius: 15px !important;
+	}
+	.accordion .accordion-body {
+        padding: 16px;
+        font-size: 14px;
+    }
+
+	/* overview css end */
 }
 
 /*=========================================================
@@ -2056,6 +2080,19 @@
 	}
 
 	/* end */
+	/* overview css start */
+	.accordion-header .accordion-button {
+		padding: 14px 15px;
+		border-radius: 15px !important;
+	}
+	.accordion .accordion-body {
+        padding: 15px;
+        font-size: 13px;
+    }
+
+
+	/* overview css end */
+	
 }
 
 /*=========================================================
@@ -2257,6 +2294,14 @@
 	}
 
 	/* end */
+	/* overview css start */
+	.accordion-header .accordion-button {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	/* overview css end */
+	
 }
 
 @media (max-width: 575px) {
@@ -2781,6 +2826,18 @@
 	}
 
 	/* end */
+
+	/* overview css start */
+	.accordion-header .accordion-button {
+		font-size: 14px;
+		line-height: 1.4;
+		padding: 10px 15px;
+	}
+	.accordion .accordion-body {
+        font-size: 12px;
+    }
+
+	/* overview css end */
 }
 
 @media (max-width: 481px) {
