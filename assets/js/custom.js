@@ -126,6 +126,32 @@ $(document).ready(function () {
       },
     ],
   });
+
+  // Blogs Slick Slider - services page
+  $(".blogsSlider").slick({
+    infinite: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: false,
+    arrows: false,
+    dots: false,
+
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2.1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1.2,
+        },
+      },
+    ],
+  });
 });
 
 // year update js
