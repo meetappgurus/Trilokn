@@ -3501,83 +3501,107 @@ h2.display {
 /*  collaboration section end */
 
 /* 5-stage section css start */
-.elite-card .elite-desc {
+.elite .elite-card .elite-desc {
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 0px;
   line-height: 1.5;
 }
 
-.elite-card-col {
-  width: 20%;
+.elite .elite-card-col {
+  flex: 0 0 auto;
+  max-width: 288px;
 }
 
-.elite-card {
-  padding: 48px 30px 30px;
+.elite .elite-card {
+  padding: 48px 25px 25px;
   border-radius: 30px;
   background: #f8fafc;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   position: relative;
   z-index: 1;
+  height: 100%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 
-.elite-card:hover {
+.elite .elite-card:hover {
   transform: translateZ(4px);
   background: var(--white);
 }
 
-.elite-num {
+.elite .elite-num {
   position: absolute;
   font-weight: 900;
   color: #e5e7eb;
   right: 20px;
   top: 20px;
-  font-size: 70px;
+  font-size: 65px;
   line-height: 1;
   z-index: -1;
   transition: all 0.3s ease;
   opacity: 0.4;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
-.elite-num:hover {
+.elite .elite-num:hover {
   opacity: 1;
 }
 
-.elite-main-bottom {
+.elite .elite-main-bottom {
   padding: 60px;
   background: var(--theme-black);
+  margin: 70px 0 0;
   border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 
-.elite-left-num {
+.elite .elite-left-num {
   flex-shrink: 0;
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   border: 1px solid #fff;
-  /* background: rgba(233, 30, 99, 0.1); */
   transition: all 0.3s ease;
   margin-right: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
-.elite-left-num span {
+.elite .elite-left-num span {
   font-size: 18px;
   font-weight: 700;
   color: var(--theme-secondary);
 }
 
 .elite .service-heroimg {
-  position: relative;
   overflow: hidden;
-  z-index: 1;
-  max-width: 570px;
-  margin-left: auto;
   box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 25%);
-  border: 6px solid #000;
-  border-radius: 24px;
+  border: 10px solid #000;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  max-width: max-content;
+  margin-left: 30px;
 }
 
 /* 5-stage section css end */
