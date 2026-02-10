@@ -3354,6 +3354,20 @@ h2.display {
 
 .network .blogs-slide img {
   object-fit: cover;
+  width: 100%;
+  transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -ms-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+}
+
+.network .blogs-slide:hover img {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 .network .net-btn.theme_primary {
