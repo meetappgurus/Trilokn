@@ -3629,3 +3629,13 @@ h2.display {
 }
 
 /* end */
+
+
+/* Success-story page css start */
+
+/* Next story section start */
+.next-story{
+  background: var(--Dark-Blue);
+}
+
+/* Next story section end */
