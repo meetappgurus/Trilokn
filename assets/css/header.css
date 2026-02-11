@@ -711,6 +711,10 @@ header .navbar-collapse {
 }
 
 @media (min-width: 992px) {
+    .header-main .header-right .collapse:not(.show) {
+        display: block;
+    }
+
     .desktop {
         display: flex;
     }
