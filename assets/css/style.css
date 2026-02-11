@@ -3620,3 +3620,12 @@ h2.display {
 }
 
 /* 5-stage section css end */
+
+/* hero section success-story page */
+.success-story-hero .rating-group {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+/* end */
