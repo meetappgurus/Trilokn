@@ -1087,6 +1087,11 @@
 	.stage-card p.hover-description {
 		overflow: hidden;
 	}
+	
+	.stage-card p.hover-description {
+		opacity: 1;
+		font-size: 12px;
+	}
 
 	/* end */
 	/* on-demand section */
@@ -1254,6 +1259,12 @@
 		font-size: 16px;
 	}
 
+	.unlocked-section .floating-card {
+		bottom: -5rem;
+		padding: 1.5rem;
+		border-radius: 2rem;
+	  }
+
 	/* end */
 	/* certificate section css */
 	.technology-startup .startup-left button {
@@ -1265,6 +1276,7 @@
 	}
 
 	/* end */
+
 	/* hero section services */
 	.service-herobanner.hero .fill-badge {
 		border-radius: 14px;

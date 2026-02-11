@@ -2598,7 +2598,7 @@ h2.display {
   border-radius: 3rem;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
   border: 1px solid #f1f5f9;
-  max-width: 350px;
+  max-width: 400px;
   animation: float 6s ease-in-out infinite;
 }
 
@@ -3310,6 +3310,7 @@ h2.display {
 
 .accordion .accordion-button {
   background-color: var(--theme-background);
+  color: var(--theme-black);
   font-weight: 700;
   font-size: 20px;
   padding: 20px 24px;
