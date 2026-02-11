@@ -1110,7 +1110,7 @@
 		margin-bottom: 20px;
 		opacity: 1;
 		transition: none !important;
-		pointer-events: none;
+		pointer-events: auto;
 	}
 
 	/* end */
