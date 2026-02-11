@@ -918,6 +918,7 @@
 		padding: 16px 20px;
 		border-radius: 20px !important;
 	}
+
 	.accordion .accordion-body {
 		padding: 20px;
 		font-size: 14px;
@@ -1320,6 +1321,14 @@
 		margin: 40px 0 50px;
 	}
 
+	.core-vertical-box:hover {
+		transform: none;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+	}
+
 	.core-vertical-box .core-v-img {
 		width: 44px;
 		height: 44px;
@@ -1489,10 +1498,11 @@
 		padding: 14px 16px;
 		border-radius: 15px !important;
 	}
+
 	.accordion .accordion-body {
-        padding: 16px;
-        font-size: 14px;
-    }
+		padding: 16px;
+		font-size: 14px;
+	}
 
 	/* overview css end */
 }
@@ -2085,14 +2095,15 @@
 		padding: 14px 15px;
 		border-radius: 15px !important;
 	}
+
 	.accordion .accordion-body {
-        padding: 15px;
-        font-size: 13px;
-    }
+		padding: 15px;
+		font-size: 13px;
+	}
 
 
 	/* overview css end */
-	
+
 }
 
 /*=========================================================
@@ -2301,7 +2312,7 @@
 	}
 
 	/* overview css end */
-	
+
 }
 
 @media (max-width: 575px) {
@@ -2833,9 +2844,10 @@
 		line-height: 1.4;
 		padding: 10px 15px;
 	}
+
 	.accordion .accordion-body {
-        font-size: 12px;
-    }
+		font-size: 12px;
+	}
 
 	/* overview css end */
 }
