@@ -3771,7 +3771,7 @@ h2.display {
   -o-transform: translateY(-8px);
 }
 
-.core-vertical-box::before {
+.clientTestimonialSlider .ct-slide .core-vertical-box::before {
   content: "";
   width: 80px;
   height: 80px;
