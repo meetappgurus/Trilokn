@@ -3842,5 +3842,9 @@ h2.display {
   -o-transform: translateY(-50%);
 }
 
+body.compensate-for-scrollbar {
+  padding-right: 0;
+  overflow: auto !important;
+}
 
 /* end */
