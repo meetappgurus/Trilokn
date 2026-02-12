@@ -173,6 +173,62 @@ $(document).ready(function () {
       },
     ],
   });
+
+  // Companies List Logo Slider - success story page
+  $(".companiesListSlider").slick({
+    slidesToShow: "auto",
+    autoplay: false,
+    autoplaySpeed: 0,
+    speed: 5000,
+    cssEase: "linear",
+    pauseOnHover: false,
+    arrows: false,
+    dots: false,
+    variableWidth: false,
+
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 4,
+          autoplay: true,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 2,
+          autoplay: true,
+          infinite: true,
+        },
+      },
+    ],
+  });
+
+  // Experience of tech leaders Slider - success story page
+  $(".leadersExperienceSlider").slick({
+    infinite: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: false,
+    arrows: true,
+    dots: false,
+
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {},
+      },
+      {
+        breakpoint: 575,
+        settings: {},
+      },
+    ],
+  });
+
+  // FancyBox js
+  Fancybox.bind("[data-fancybox]", {});
 });
 
 // year update js
@@ -312,6 +368,3 @@ document.addEventListener("DOMContentLoaded", function () {
   calculateROI(5, "senior");
 });
 // unlocked section js end
-
-// FancyBox js
-Fancybox.bind("[data-fancybox]", {});

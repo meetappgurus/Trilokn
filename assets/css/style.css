@@ -3641,7 +3641,7 @@ h2.display {
   -o-border-radius: 0;
 }
 
-.vide_play_link {
+.playicon {
   width: 80px;
   height: 80px;
 }
@@ -3696,6 +3696,10 @@ h2.display {
 /* end */
 
 /* client testimonial - success-story page */
+.client-testimonials.sec-padding {
+  padding-bottom: 60px;
+}
+
 .client_testimonial_main .ct-profile h5 {
   color: var(--theme-black);
   font-weight: 700;
@@ -3802,17 +3806,17 @@ h2.display {
   margin: 0 -15px;
 }
 
-.clientTestimonialSlider .slick-next.slick-arrow {
+.slick-next.slick-arrow {
   background-image: url(../images/next-arrow.svg);
   right: -15px;
 }
 
-.clientTestimonialSlider .slick-prev.slick-arrow {
+.slick-prev.slick-arrow {
   background-image: url(../images/prev-arrow.svg);
   left: -15px;
 }
 
-.clientTestimonialSlider .slick-arrow {
+.slick-arrow {
   font-size: 0;
   background-color: var(--theme-white);
   background-repeat: no-repeat;
@@ -3844,10 +3848,181 @@ body.compensate-for-scrollbar {
 
 /* end */
 
-/* Success-story page css start */
+/* success review stories - success story page */
+.outer-padding {
+  padding: 0 50px;
+}
+
+.success-review-stories {
+  background-color: var(--theme-primary);
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.success-review-stories .review-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.success-review-stories .right-domain-col p {
+  color: var(--theme-gray-800);
+  font-weight: 700;
+}
+
+.success-review-stories .right-domain-col h2 {
+  color: var(--theme-secondary);
+  margin-bottom: 14px;
+}
+
+.success-review-stories .review-list-wrapper {
+  max-width: 1120px;
+  margin: 40px auto 0;
+}
+
+.success-review-stories .review-list-wrapper .row {
+  gap: 20px;
+}
+
+.success-review-stories .review-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: fit-content;
+  gap: 26px;
+  padding: 20px 30px;
+  background-color: var(--theme-white);
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+
+.success-review-stories .badge-rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.success-review-stories .review-list h3 {
+  font-weight: 900;
+  color: var(--theme-black);
+  line-height: 1;
+}
+
+.success-review-stories .review-list .badgetext {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #64748B;
+  font-weight: 700;
+}
+
+/* end */
+
+/* companies list logo  - success story page */
+.companiesListSlider .logo-slide {
+  max-width: 200px;
+  aspect-ratio: 200 / 90;
+  width: 100%;
+  padding: 20px;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.companiesListSlider {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.companiesListSlider .slick-track {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 0;
+}
+
+/* end */
+
+/* Experience of tech leaders - success story page */
+.leadersExperienceSlider .inner-img-top {
+  background-color: var(--theme-primary);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+.leadersExperienceSlider .tl-slide h3 {
+  overflow: hidden;
+  margin: 20px 0 0;
+  color: var(--theme-black);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.leadersExperienceSlider .tl-slide .tl-img {
+  max-height: 250px;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 336/250;
+}
+
+.leadersExperienceSlider {
+  margin: 0 -15px 0;
+}
+
+.leadersExperienceSlider .tl-slide {
+  padding: 40px 15px 0;
+  height: 100%;
+}
+
+.leadersExperienceSlider .slick-slide>div {
+  height: 100%;
+}
+
+.leadersExperienceSlider .slick-list,
+.leadersExperienceSlider .slick-track {
+  display: flex;
+}
+
+.center-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.leadersExperienceSlider .success-story-badge {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.leadersExperienceSlider .playicon {
+  width: 50px;
+  height: 50px;
+}
+
+/* end */
 
 /* Next story section css start */
-.next-story{
+.next-story {
   background: var(--Dark-Blue);
 }
 
@@ -3931,9 +4106,10 @@ body.compensate-for-scrollbar {
   transition: transform 500ms var(--ease-out);
   -webkit-transition: transform 500ms var(--ease-out);
 }
+
 .count-cards-main-item:hover .count-top-right-ldash,
 .count-cards-main-item:hover .count-top-right-sdash,
-.count-cards-main-item:hover .checkbox-button{
+.count-cards-main-item:hover .checkbox-button {
   background: var(--theme-secondary);
   opacity: 1;
 }
