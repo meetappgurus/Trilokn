@@ -979,6 +979,12 @@
 		font-size: 0.8rem;
 	}
 
+	/* domain section */
+	.card-list .card-list-text br {
+		display: none;
+	}
+
+	/* end */
 	/* zero section */
 	.process-section h2.section-title.white_text {
 		font-size: 44px;
@@ -2693,10 +2699,6 @@
 		bottom: -25px;
 	}
 
-	.service-herobanner.hero .hero-title {
-		font-size: 30px;
-	}
-
 	.service-herobanner .btn-primary-custom {
 		max-width: 100%;
 	}
@@ -2906,6 +2908,12 @@
 
 	.unlocked-section .monthly-estimate {
 		font-size: 14px;
+	}
+
+	/* end */
+	/* hero section services */
+	.service-herobanner.hero .hero-title {
+		font-size: 30px;
 	}
 
 	/* end */

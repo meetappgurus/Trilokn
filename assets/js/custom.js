@@ -152,6 +152,27 @@ $(document).ready(function () {
       },
     ],
   });
+
+  // Client Testimonial Slider - success story page
+  $(".clientTestimonialSlider").slick({
+    infinite: true,
+    dots: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: false,
+    arrows: true,
+
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {},
+      },
+      {
+        breakpoint: 575,
+        settings: {},
+      },
+    ],
+  });
 });
 
 // year update js
@@ -291,3 +312,6 @@ document.addEventListener("DOMContentLoaded", function () {
   calculateROI(5, "senior");
 });
 // unlocked section js end
+
+// FancyBox js
+Fancybox.bind("[data-fancybox]", {});
