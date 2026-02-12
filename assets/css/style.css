@@ -3747,6 +3747,8 @@ h2.display {
 }
 
 .clientTestimonialSlider .ct-slide .core-vertical-box {
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -3767,6 +3769,18 @@ h2.display {
   -moz-transform: translateY(-8px);
   -ms-transform: translateY(-8px);
   -o-transform: translateY(-8px);
+}
+
+.core-vertical-box::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--theme-secondary);
+  opacity: 0.1;
+  position: absolute;
+  right: -40px;
+  top: -40px;
 }
 
 .clientTestimonialSlider .cl-bottom {
