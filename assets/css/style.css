@@ -1175,6 +1175,7 @@ h2.display {
   -o-transition: transform 500ms var(--ease-out);
 }
 
+/* .global-main-cards:hover .pool, */
 .pool-card:hover .pool {
   transform: scale(1.12) rotate(6deg);
   -webkit-transform: scale(1.12) rotate(6deg);
@@ -2615,7 +2616,7 @@ h2.display {
   align-items: center;
   justify-content: center;
   color: var(--brand-purple);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 900;
   box-shadow: inset 0 2px 10px rgba(124, 58, 237, 0.1);
 }
@@ -3630,12 +3631,6 @@ h2.display {
 
 /* end */
 
-/* Next story section start */
-.next-story {
-  background: var(--Dark-Blue);
-}
-
-/* Next story section end */
 
 /* Success-story page css start */
 .success-story-hero .hero-image {
@@ -3848,3 +3843,115 @@ body.compensate-for-scrollbar {
 }
 
 /* end */
+
+/* Success-story page css start */
+
+/* Next story section css start */
+.next-story{
+  background: var(--Dark-Blue);
+}
+
+.next-story-main-buttons {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Next story section css end */
+
+.common-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Global teams section css start */
+.global-cards {
+  border: 1px solid #eef0f2;
+  background: var(--theme-grey);
+  /* transition: transform 450ms var(--ease-out), box-shadow 450ms var(--ease-out); */
+}
+
+/* Global teams section css end */
+
+/* Excellence section css start */
+
+.excellence-section {
+  background: var(--theme-black);
+}
+
+.badge-text {
+  padding: 5px 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 10px;
+  font-weight: 900;
+  border: 1px solid var(--theme-secondary);
+  border-radius: 20px;
+}
+
+.excellence-top-small {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.core-vertical-box.count-cards-main-item {
+  background: rgba(2, 6, 23, 0.9);
+  border: 1px solid #2d343e;
+}
+
+.checkbox-button {
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #2d343e;
+  transition: all 0.3s ease;
+  -webkit-border-radius: 50%;
+  margin-top: 15px;
+}
+
+.count-vertical-border {
+  border-top: 1px solid #2d343e;
+  margin: 40px 0 0;
+}
+
+.count-cards-item {
+  width: 64px;
+  height: 64px;
+  border-radius: 22px;
+  border: 1px solid #2d343e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  transition: transform 500ms var(--ease-out);
+  -webkit-transition: transform 500ms var(--ease-out);
+}
+.count-cards-main-item:hover .count-top-right-ldash,
+.count-cards-main-item:hover .count-top-right-sdash,
+.count-cards-main-item:hover .checkbox-button{
+  background: var(--theme-secondary);
+  opacity: 1;
+}
+
+.count-top-right {
+  justify-items: end;
+}
+
+.count-top-right-ldash {
+  width: 40px;
+  height: 1px;
+  opacity: 0.4;
+  background: var(--theme-secondary);
+}
+
+.count-top-right-sdash {
+  width: 30px;
+  height: 1px;
+  opacity: 0.4;
+  background: var(--theme-secondary);
+}

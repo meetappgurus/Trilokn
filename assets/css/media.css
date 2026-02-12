@@ -1709,9 +1709,9 @@
 		font-size: 15px !important;
 	}
 
-	.comparison-table {
+	/* .comparison-table {
 		min-width: 950px;
-	}
+	} */
 
 	.why_main .comparison-table td {
 		font-size: 14px;
@@ -2146,12 +2146,12 @@
 
 	/* table-section css start */
 	.comparison-table th {
-		padding: 1.5rem 1.5rem;
+		padding: 22px 20px;
 		vertical-align: middle;
 	}
 
 	.table-container td.metric-label {
-		padding: 1.5rem 1.5rem;
+		padding: 22px 20px;
 	}
 
 	.comparison-table td {
@@ -2501,7 +2501,7 @@
 	}
 
 	.table-container td.metric-label {
-		padding: 1rem 1.5rem;
+		padding: 16px 16px;
 	}
 
 	.hub-box-container .d-grid {
