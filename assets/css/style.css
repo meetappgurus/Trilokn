@@ -4546,16 +4546,26 @@ h2.studies-nums {
   padding: 30px;
 }
 
+.story-btn hr{
+  margin-top: 0;
+}
+
 p.studies-bottom-text {
   color: var(--brand-purple);
   font-weight: 700;
   font-size: 18px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
+  /* border-bottom: 1px solid var(--theme-gray-800); */
+}
+
+.studies-bottom-top hr {
   border-bottom: 1px solid var(--theme-gray-800);
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 a.study-btn {
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.6px;
   font-size: 13px;
 }
 
@@ -4605,7 +4615,7 @@ a.study-btn {
   font-weight: 800;
 }
 
-.studies-card-main {
+.studies-cards-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
