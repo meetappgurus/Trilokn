@@ -288,6 +288,7 @@
 
 	.core-verticals-wrapper {
 		gap: 22px;
+		margin: 50px 0 50px;
 	}
 
 	/* end */
@@ -1553,7 +1554,9 @@
 		margin: 40px 0 50px;
 	}
 
-	.core-vertical-box:hover {
+	.core-vertical-box:hover,
+	.core-vertical-box.count-cards-main-item,
+	.studies-cards-box:hover {
 		transform: none;
 		-webkit-transform: none;
 		-moz-transform: none;
@@ -1767,12 +1770,71 @@
 		width: 40px;
 		height: 40px;
 	}
+	/* Studies section css start */
+	.studies-cards-box {
+		border-radius: 15px;
+	}
+	
+	.studiesbox-top {
+		padding: 25px;
+		border-radius: 15px 15px 0 0;
+	}
+	
+	.studiesbox-top .system-text {
+		font-size: 16px;
+	}
+	
+	h2.studies-nums {
+		font-size: 24px;
+	}
+	
+	.studiesbox-top .studies-cards-bottom-right .h5 {
+		font-size: 11px;
+		letter-spacing: 0.75px;
+	}
+	
+	.studies-bottom {
+		padding: 20px 20px 0 20px;
+	}
+	
+	p.studies-bottom-text {
+		font-size: 14px;
+		padding-bottom: 20px;
+	}
+	
+	.story-btn {
+		padding: 20px;
+	}
+	
+	.studies-cards-box .highlight-f {
+		font-size: 10px;
+	}
+	
+	a.study-btn {
+		font-size: 12px;
+	}
 
 	/* end */
 
 	/* Experience of tech leaders - success story page */
 	.leadersExperienceSlider .tl-slide .tl-img {
 		max-height: 200px;
+	}
+	/* Global teams section start */
+
+	.global-cards h4 {
+		font-size: 16px;
+	}
+	
+	.global-cards p {
+		font-size: 13px !important;
+	}
+	
+	.global-cards .pool {
+		border-radius: 15px;
+		font-size: 20px;
+		width: 50px;
+		height: 50px;
 	}
 
 	/* end */
@@ -3580,6 +3642,7 @@
 	}
 
 	/* end */
+
 	/* hero section services */
 	.service-herobanner.hero .hero-title {
 		font-size: 30px;
