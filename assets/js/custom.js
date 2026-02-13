@@ -165,11 +165,15 @@ $(document).ready(function () {
     responsive: [
       {
         breakpoint: 992,
-        settings: {},
+        settings: {
+          slidesToShow: 2,
+        },
       },
       {
         breakpoint: 575,
-        settings: {},
+        settings: {
+          slidesToShow: 1,
+        },
       },
     ],
   });
@@ -226,7 +230,9 @@ $(document).ready(function () {
     responsive: [
       {
         breakpoint: 992,
-        settings: {},
+        settings: {
+          slidesToShow: 2,
+        },
       },
       {
         breakpoint: 575,

@@ -460,6 +460,27 @@
 	}
 
 	/* end */
+
+	/* client testimonial - success-story page */
+	.slick-arrow {
+		background-size: 28px;
+		width: 44px;
+		height: 44px;
+	}
+
+	.clientTestimonialSlider .ct-slide {
+		padding: 50px 12px;
+	}
+
+	.clientTestimonialSlider {
+		margin: 0 -12px;
+	}
+
+	.clientTestimonialSlider .ct-profile {
+		padding: 20px 0;
+	}
+
+	/* end */
 }
 
 @media (max-width: 1499px) {
@@ -874,6 +895,38 @@
 
 	/* end */
 
+	/* client testimonial - success-story page */
+	.clientTestimonialSlider .ct-slide {
+		padding: 30px 8px;
+	}
+
+	.clientTestimonialSlider {
+		margin: 0 -8px;
+	}
+
+	.clientTestimonialSlider .ct-slide .core-vertical-box::before {
+		right: -45px;
+		top: -45px;
+	}
+
+	.clientTestimonialSlider .cl-bottom {
+		padding-top: 20px;
+		margin-top: 20px;
+	}
+
+	.slick-arrow {
+		background-size: 26px;
+	}
+
+	.clientTestimonialSlider .ct-varified .verified {
+		font-size: 10px;
+	}
+
+	.star-vector {
+		width: 10px;
+	}
+
+	/* end */
 }
 
 @media (max-width: 1299px) {
@@ -1623,6 +1676,18 @@
 	.success-story-hero .service-herobanner .hiring-card .role-name {
 		margin: 5px 0 0;
 		font-size: 14px;
+	}
+
+	/* end */
+	/* client testimonial - success-story page */
+	.clientTestimonialSlider .cl-bottom {
+		padding-top: 16px;
+	}
+
+	.slick-arrow {
+		background-size: 22px;
+		width: 40px;
+		height: 40px;
 	}
 
 	/* end */
@@ -2510,6 +2575,23 @@
 
 	/* end */
 
+	/* client testimonial - success-story page */
+	.client_testimonial_main .ct-slide p {
+		font-size: 14px;
+	}
+
+	.clientTestimonialSlider .core-vertical-box .core-v-img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.clientTestimonialSlider .ct-profile {
+		padding: 18px 0;
+		gap: 10px;
+	}
+
+	/* end */
+
 }
 
 @media (max-width: 575px) {
@@ -3159,6 +3241,39 @@
 	.playicon {
 		width: 50px;
 		height: 50px;
+	}
+
+	/* end */
+
+	/* client testimonial - success-story page */
+	.clientTestimonialSlider .ct-slide .core-vertical-box:hover {
+		transform: none;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+	}
+
+	.clientTestimonialSlider .ct-slide {
+		padding: 24px 20px;
+	}
+
+	.slick-next.slick-arrow {
+		right: 0;
+	}
+
+	.slick-prev.slick-arrow {
+		left: 0;
+	}
+
+	.clientTestimonialSlider .ct-slide .core-vertical-box {
+		box-shadow: 0px 16px 30px -10px rgba(0, 0, 0, 0.15);
+	}
+
+	.slick-arrow {
+		background-size: 20px;
+		width: 36px;
+		height: 36px;
 	}
 
 	/* end */

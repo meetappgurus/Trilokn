@@ -1594,11 +1594,12 @@ h2.display {
   font-weight: 900;
 }
 
-.comparison-table thead tr th .company-name:nth-child(2){
+.comparison-table thead tr th .company-name:nth-child(2) {
   text-align: center;
   color: var(--white);
 }
-.comparison-table thead tr th .industry-badge:nth-child(2){
+
+.comparison-table thead tr th .industry-badge:nth-child(2) {
   color: var(--theme-secondary);
   text-align: center;
   font-size: 10px;
@@ -3790,6 +3791,8 @@ h2.display {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 10px 30px;
+  flex-wrap: wrap;
 }
 
 .clientTestimonialSlider .ct-profile {
@@ -4107,6 +4110,14 @@ body.compensate-for-scrollbar {
 .techSuccessSlider .badge {
   background-color: var(--theme-gray-800);
   border-radius: 5px;
+  text-transform: unset;
+  letter-spacing: normal;
+  font-weight: 700;
+  font-size: 12px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .techSuccessSlider .inner-content-bottom p {
@@ -4437,6 +4448,7 @@ p.technical-card-text {
   font-size: 16px;
   font-weight: 800;
 }
+
 /* Excellence section css end */
 
 /* Studies section css start */
@@ -4447,7 +4459,7 @@ p.technical-card-text {
   height: 100%;
 }
 
-.studies-cards-box:hover{
+.studies-cards-box:hover {
   transform: translateY(-5px);
   transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -4489,12 +4501,13 @@ h2.studies-nums {
   color: var(--brand-purple);
   margin-right: 10px;
 }
-.studies-cards-box:hover .studies-top-right{
+
+.studies-cards-box:hover .studies-top-right {
   color: var(--theme-secondary);
   opacity: 0.5;
 }
 
-.studies-cards-box:hover h2.studies-nums{
+.studies-cards-box:hover h2.studies-nums {
   color: var(--theme-secondary);
   opacity: 1;
 }
@@ -4517,7 +4530,7 @@ a.study-btn {
 
 .studies-filter-section {
   padding-bottom: 40px;
-    border-bottom: 1px solid var(--brand-light);
+  border-bottom: 1px solid var(--brand-light);
 }
 
 .studies-filter-label {
@@ -4566,4 +4579,5 @@ a.study-btn {
   flex-direction: column;
   justify-content: space-between;
 }
+
 /* Studies section css end */
