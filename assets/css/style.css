@@ -4536,7 +4536,7 @@ h2.studies-nums {
   opacity: 0.5;
 }
 
-.studies-cards-box:hover h2.studies-nums {
+.studies-cards-box:hover .studies-top-num {
   color: var(--theme-secondary);
   opacity: 1;
 }
@@ -4645,6 +4645,7 @@ a.study-btn {
 
 .studiesbox-top .system-text {
   font-size: 22px;
+  line-height: 1.1;
 }
 
 /* Studies section css end */
