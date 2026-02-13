@@ -198,6 +198,14 @@ $(document).ready(function () {
       {
         breakpoint: 575,
         settings: {
+          slidesToShow: 2.8,
+          autoplay: true,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 400,
+        settings: {
           slidesToShow: 2,
           autoplay: true,
           infinite: true,

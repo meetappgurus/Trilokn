@@ -839,7 +839,8 @@
 		gap: 16px;
 	}
 
-	.success-review-stories.padding-b-60.padding-t-60 {
+	.success-review-stories.padding-b-60.padding-t-60,
+	.companies-list-slider.padding-b-80.padding-t-80 {
 		padding: 40px 0 !important;
 	}
 
@@ -1593,6 +1594,14 @@
 	}
 
 	/* overview css end */
+
+	/* companies list logo  - success story page */
+	.companiesListSlider .slick-track {
+		gap: 0;
+		align-items: center;
+	}
+
+	/* end */
 }
 
 /*=========================================================
@@ -1786,6 +1795,7 @@
 	.why_main .comparison-table td {
 		font-size: 14px;
 	}
+
 	/* table section end */
 
 	/* hub section */
@@ -2231,6 +2241,15 @@
 	}
 
 	/* end */
+
+	/* companies list logo  - success story page */
+	.companiesListSlider .logo-slide {
+		max-width: 180px;
+		aspect-ratio: 180 / 90;
+		padding: 20px 20px;
+	}
+
+	/* end */
 }
 
 /*=========================================================
@@ -2259,6 +2278,7 @@
 		border-radius: 15px;
 		overflow-x: auto;
 	}
+
 	/* .comparison-table th {
 		padding: 22px 20px;
 		vertical-align: middle;
@@ -2645,23 +2665,58 @@
 	.comparison-table {
 		min-width: 650px;
 	}
+
 	.why_main .comparison-table td {
-        font-size: 12px;
-    }
-	th.header-label{min-width:100px;line-height:1.2;font-weight:700;}
-	th.header-trilokn{min-width:135px;}
-	th.header-competitor{min-width:115px;font-weight:600;}
-	.header-label-text{margin-top:0px;}
-	.comparison-table th{padding:10px 14px;font-size:11px!important;}
-	.why_main .comparison-table td{padding:14px 14px;}
+		font-size: 12px;
+	}
+
+	th.header-label {
+		min-width: 100px;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+
+	th.header-trilokn {
+		min-width: 135px;
+	}
+
+	th.header-competitor {
+		min-width: 115px;
+		font-weight: 600;
+	}
+
+	.header-label-text {
+		margin-top: 0px;
+	}
+
+	.comparison-table th {
+		padding: 10px 14px;
+		font-size: 11px !important;
+	}
+
+	.why_main .comparison-table td {
+		padding: 14px 14px;
+	}
+
 	.comparison-table .metric-label,
-	.comparison-table .trilokn-cell{font-weight:700!important;}
-	.header-trilokn .company-name{font-weight:700;}
+	.comparison-table .trilokn-cell {
+		font-weight: 700 !important;
+	}
+
+	.header-trilokn .company-name {
+		font-weight: 700;
+	}
+
 	.why_main th.header-competitor,
 	.comparison-table td.why-font,
 	.why_main td.metric-label,
-	.why_main td.trilokn-cell{font-size:12px!important;}
-	.why_main span.company-name{font-size:12px!important;}
+	.why_main td.trilokn-cell {
+		font-size: 12px !important;
+	}
+
+	.why_main span.company-name {
+		font-size: 12px !important;
+	}
 
 	/* end */
 
@@ -3040,8 +3095,17 @@
 		gap: 4px;
 	}
 
-	.success-review-stories.padding-b-60.padding-t-60 {
+	.success-review-stories.padding-b-60.padding-t-60,
+	.companies-list-slider.padding-b-80.padding-t-80 {
 		padding: 30px 0 !important;
+	}
+
+	/* end */
+
+	/* companies list logo  - success story page */
+	.companiesListSlider .logo-slide {
+		aspect-ratio: auto;
+		padding: 14px 14px;
 	}
 
 	/* end */
