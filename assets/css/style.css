@@ -3881,6 +3881,14 @@ h2.display {
   left: -15px;
 }
 
+.slick-next.slick-arrow.slick-disabled {
+  background-image: url(../images/disabled-next.svg);
+}
+
+.slick-prev.slick-arrow.slick-disabled {
+  background-image: url(../images/disabled-prev.svg);
+}
+
 .slick-arrow {
   font-size: 0;
   background-color: var(--theme-white);
@@ -4258,6 +4266,7 @@ body.compensate-for-scrollbar {
   overflow: hidden;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
+  height: 100%;
 }
 
 .featured-success-wrap .featured-content .featured-top .badge {
@@ -4302,6 +4311,7 @@ body.compensate-for-scrollbar {
 
 .featured-success-wrap .featured-img img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   transition: transform 0.4s ease;
   overflow: hidden;
