@@ -472,12 +472,32 @@
 		padding: 50px 12px;
 	}
 
-	.clientTestimonialSlider {
+	.clientTestimonialSlider,
+	.techSuccessSlider {
 		margin: 0 -12px;
 	}
 
 	.clientTestimonialSlider .ct-profile {
 		padding: 20px 0;
+	}
+
+	/* end */
+	/* Experience of tech leaders - success story page */
+	.leadersExperienceSlider .tl-slide,
+	.techSuccessSlider .ts-slide {
+		padding: 40px 12px;
+	}
+
+	.leadersExperienceSlider {
+		margin: 0 -12px 0;
+	}
+
+	/* end */
+
+	/* Tech Success Story - succuess story page */
+	.techSuccessSlider .ts-slide .success-story-badge {
+		font-size: 11px;
+		padding: 6px 14px;
 	}
 
 	/* end */
@@ -896,11 +916,14 @@
 	/* end */
 
 	/* client testimonial - success-story page */
-	.clientTestimonialSlider .ct-slide {
+	.clientTestimonialSlider .ct-slide,
+	.leadersExperienceSlider .tl-slide,
+	.techSuccessSlider .ts-slide {
 		padding: 30px 8px;
 	}
 
-	.clientTestimonialSlider {
+	.clientTestimonialSlider,
+	.techSuccessSlider {
 		margin: 0 -8px;
 	}
 
@@ -924,6 +947,32 @@
 
 	.star-vector {
 		width: 10px;
+	}
+
+	/* end */
+
+	/* Experience of tech leaders - success story page */
+	.leadersExperienceSlider .tl-slide .tl-img {
+		max-height: 220px;
+	}
+
+	.leadersExperienceSlider {
+		margin: 0 -8px 0;
+	}
+
+	/* end */
+	/* Tech Success Story - succuess story page */
+	.techSuccessSlider .ts-slide .inner-content-bottom {
+		padding: 20px 16px;
+	}
+
+	.techSuccessSlider .hash-tag-wrapper {
+		margin-bottom: 16px;
+		gap: 6px;
+	}
+
+	.techSuccessSlider .badge {
+		font-size: 10px;
 	}
 
 	/* end */
@@ -1691,6 +1740,22 @@
 	}
 
 	/* end */
+
+	/* Experience of tech leaders - success story page */
+	.leadersExperienceSlider .tl-slide .tl-img {
+		max-height: 200px;
+	}
+
+	/* end */
+
+	/* Tech Success Story - succuess story page */
+	.techSuccessSlider .ts-slide .overlay_badge {
+		top: 16px;
+		bottom: auto;
+		left: 16px;
+	}
+
+	/* end */
 }
 
 /*=========================================================
@@ -2349,6 +2414,24 @@
 
 	.success-story-hero .service-herobanner .hiring-card .role-name {
 		font-size: 12px;
+	}
+
+	/* end */
+	/* Experience of tech leaders - success story page */
+	.leadersExperienceSlider .inner-img-top {
+		border-radius: 16px;
+	}
+
+	.leadersExperienceSlider .tl-slide .tl-img {
+		max-height: 220px;
+	}
+
+	.leadersExperienceSlider .tl-slide h3 {
+		margin: 16px 0 0;
+	}
+
+	.leadersExperienceSlider .slick-arrow {
+		top: calc(100% - 56%);
 	}
 
 	/* end */
@@ -3254,7 +3337,9 @@
 		-o-transform: none;
 	}
 
-	.clientTestimonialSlider .ct-slide {
+	.clientTestimonialSlider .ct-slide,
+	.leadersExperienceSlider .tl-slide,
+	.techSuccessSlider .ts-slide {
 		padding: 24px 20px;
 	}
 
@@ -3274,6 +3359,33 @@
 		background-size: 20px;
 		width: 36px;
 		height: 36px;
+	}
+
+	/* end */
+	/* Experience of tech leaders - success story page */
+	.leadersExperienceSlider .tl-slide h3 {
+		margin: 12px 0 0;
+		font-size: 16px;
+	}
+
+	/* end */
+	/* Tech Success Story - succuess story page */
+	.techSuccessSlider .ts-slide-box:hover,
+	.techSuccessSlider .ts-slide-box {
+		box-shadow: 0px 12px 20px -10px rgba(0, 0, 0, 0.15);
+	}
+
+	.techSuccessSlider .ts-img-top {
+		border-top-left-radius: 16px;
+		border-top-right-radius: 16px;
+	}
+
+	.techSuccessSlider .ts-slide-box {
+		border-radius: 16px;
+		-webkit-border-radius: 16px;
+		-moz-border-radius: 16px;
+		-ms-border-radius: 16px;
+		-o-border-radius: 16px;
 	}
 
 	/* end */

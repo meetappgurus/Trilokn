@@ -236,7 +236,9 @@ $(document).ready(function () {
       },
       {
         breakpoint: 575,
-        settings: {},
+        settings: {
+          slidesToShow: 1,
+        },
       },
     ],
   });
@@ -252,12 +254,22 @@ $(document).ready(function () {
 
     responsive: [
       {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
         breakpoint: 992,
-        settings: {},
+        settings: {
+          slidesToShow: 2,
+        },
       },
       {
         breakpoint: 575,
-        settings: {},
+        settings: {
+          slidesToShow: 1,
+        },
       },
     ],
   });
