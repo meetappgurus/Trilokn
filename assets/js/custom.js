@@ -227,6 +227,27 @@ $(document).ready(function () {
     ],
   });
 
+  // Tech Success Story - success story page
+  $(".techSuccessSlider").slick({
+    infinite: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: false,
+    arrows: true,
+    dots: false,
+
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {},
+      },
+      {
+        breakpoint: 575,
+        settings: {},
+      },
+    ],
+  });
+
   // FancyBox js
   Fancybox.bind("[data-fancybox]", {});
 });

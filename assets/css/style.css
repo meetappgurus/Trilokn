@@ -380,7 +380,9 @@ img {
 /* Hover State CSS BOF */
 .btn:hover,
 .btn:focus,
-.btn:active {
+.btn:active,
+.btn:focus-visible,
+:not(.btn-check)+.btn:active {
   background-color: var(--theme-secondary);
   color: var(--theme-white);
   /* border: 1px solid var(--theme-secondary); */
@@ -3696,7 +3698,8 @@ h2.display {
 /* end */
 
 /* client testimonial - success-story page */
-.client-testimonials.sec-padding {
+.client-testimonials.sec-padding,
+.tech-success-story.sec-padding {
   padding-bottom: 60px;
 }
 
@@ -3977,6 +3980,21 @@ body.compensate-for-scrollbar {
   width: 100%;
   object-fit: cover;
   aspect-ratio: 336/250;
+  transition: transform 0.4s ease;
+  overflow: hidden;
+  will-change: transform;
+  -webkit-transition: transform 0.4s ease;
+  -moz-transition: transform 0.4s ease;
+  -ms-transition: transform 0.4s ease;
+  -o-transition: transform 0.4s ease;
+}
+
+.leadersExperienceSlider .tl-slide .tl-img:hover {
+  transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
 }
 
 .leadersExperienceSlider {
@@ -4017,6 +4035,214 @@ body.compensate-for-scrollbar {
 .leadersExperienceSlider .playicon {
   width: 50px;
   height: 50px;
+}
+
+/* end */
+
+/* Tech Success Story - succuess story page */
+.techSuccessSlider .badge {
+  background-color: var(--theme-gray-800);
+  border-radius: 5px;
+}
+
+.techSuccessSlider .inner-content-bottom p {
+  font-weight: 700;
+}
+
+.techSuccessSlider .hash-tag-wrapper {
+  justify-content: start;
+  margin-bottom: 20px;
+  gap: 8px;
+}
+
+.techSuccessSlider .ts-img-top {
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.techSuccessSlider .ts-slide .overlay_badge {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  display: block;
+}
+
+.techSuccessSlider .ts-slide .success-story-badge {
+  font-size: 12px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: var(--theme-light-purple);
+  color: var(--theme-primary);
+}
+
+.techSuccessSlider {
+  margin: 0 -15px;
+}
+
+.techSuccessSlider .ts-slide-box {
+  border: 1px solid #E2E8F0;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 100%;
+  transition: 0.4s ease;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+}
+
+.techSuccessSlider .ts-slide-box:hover {
+  box-shadow: 0px 16px 30px -10px rgba(0, 0, 0, 0.15);
+}
+
+.techSuccessSlider .ts-slide {
+  padding: 40px 15px;
+  height: 100%;
+}
+
+.techSuccessSlider .ts-slide .ts-img {
+  width: 100%;
+  max-height: 200px;
+  aspect-ratio: 330/200;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  overflow: hidden;
+  will-change: transform;
+  -webkit-transition: transform 0.4s ease;
+  -moz-transition: transform 0.4s ease;
+  -ms-transition: transform 0.4s ease;
+  -o-transition: transform 0.4s ease;
+}
+
+.techSuccessSlider .ts-slide:hover .ts-img {
+  transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
+}
+
+.techSuccessSlider .ts-slide .inner-content-bottom {
+  padding: 20px;
+  height: calc(100% - 200px);
+}
+
+.techSuccessSlider .slick-slide>div {
+  height: 100%;
+}
+
+.techSuccessSlider .slick-list,
+.techSuccessSlider .slick-track {
+  display: flex;
+}
+
+/* end */
+
+/* Featured Success Story - Success page */
+.featured-success-wrap {
+  background-color: var(--theme-black);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin: 30px 0 0 0;
+}
+
+.featured-success-wrap .featured-content {
+  padding: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featured-success-wrap .featured-top {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.featured-success-wrap .featured-content p {
+  color: var(--theme-gray-900);
+  margin: 16px 0 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--theme-gray-900);
+}
+
+.featured-success-wrap .featured-img {
+  overflow: hidden;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.featured-success-wrap .featured-content .featured-top .badge {
+  background: rgba(255, 255, 255, 10%);
+  color: var(--bs-white);
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.featured-success-wrap .featured-content .highlight-f {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #C4B5FD;
+}
+
+.featured-success-wrap .featured-content .featured-top .highlight-f::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background-color: var(--theme-secondary);
+  margin: 0 12px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.featured-success-wrap .featured-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featured-success-wrap .featured-footer .btn-secondary {
+  max-width: fit-content;
+  padding: 12px 40px;
+}
+
+.featured-success-wrap .featured-img img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  overflow: hidden;
+  will-change: transform;
+  -webkit-transition: transform 0.4s ease;
+  -moz-transition: transform 0.4s ease;
+  -ms-transition: transform 0.4s ease;
+  -o-transition: transform 0.4s ease;
+}
+
+.featured-success-wrap .featured-img:hover img {
+  transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
 }
 
 /* end */
