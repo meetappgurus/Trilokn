@@ -848,6 +848,19 @@
 	}
 
 	/* end */
+	/* Studies section start */
+	/* .studies-filter-dropdown select {
+		padding: 8px 20px 8px 15px;
+		font-size: 14px;
+		background-position: right 18px center;
+	}
+
+	.studies-showing-count {
+		font-weight: 700;
+	} */
+
+	/* end */
+
 }
 
 @media (max-width: 1299px) {
@@ -969,6 +982,19 @@
 	}
 
 	/* overview css end */
+
+	/* Studies section start */
+	.studies-filter-dropdown select {
+		padding: 8px 20px 8px 15px;
+		font-size: 14px;
+		background-position: right 18px center;
+	}
+
+	.studies-showing-count {
+		font-weight: 700;
+	}
+
+	/* end */
 
 
 }
@@ -1098,7 +1124,7 @@
 	}
 
 	/* table-section */
-	.comparison-section {
+	/* .comparison-section {
 		padding: 70px 0;
 	}
 
@@ -1108,7 +1134,7 @@
 
 	.comparison-table td {
 		padding: 24px;
-	}
+	} */
 
 	/* hub section */
 	.transparency-hub .hub-box-container {
@@ -1706,28 +1732,28 @@
 
 	/* table section start */
 	.comparison-section .section-title {
-		font-size: 40px;
+		/* font-size: 40px; */
 	}
 
 	.comparison-section .section-subtitle {
-		font-size: 16px;
-		margin-bottom: 0;
+		/* font-size: 16px;
+		margin-bottom: 0; */
 	}
 
 	.comparison-table th {
-		padding: 2rem 2rem;
+		padding: 16px;
 	}
 
 	.comparison-table td {
-		padding: 20px;
+		padding: 16px;
 	}
 
 	.table-container {
-		overflow-x: auto;
+		/* overflow-x: auto; */
 	}
 
 	.comparison-section {
-		padding: 50px 0;
+		/* padding: 50px 0; */
 	}
 
 	.table-container {
@@ -1735,31 +1761,32 @@
 	}
 
 	th.header-label {
-		font-size: 12px !important;
+		/* font-size: 12px !important; */
 	}
 
 	.why_main span.company-name {
-		font-size: 15px !important;
+		/* font-size: 15px !important; */
 	}
 
 	.why_main span.industry-badge {
-		font-size: 9px !important;
+		/* font-size: 9px !important; */
 	}
 
 	.why_main th.header-competitor,
 	.comparison-table td.why-font,
 	.why_main td.metric-label,
 	.why_main td.trilokn-cell {
-		font-size: 15px !important;
+		/* font-size: 15px !important; */
 	}
 
-	/* .comparison-table {
-		min-width: 950px;
-	} */
+	.comparison-table {
+		/* min-width: 950px; */
+	}
 
 	.why_main .comparison-table td {
 		font-size: 14px;
 	}
+	/* table section end */
 
 	/* hub section */
 	.transparency-hub .hub-box-container {
@@ -2227,13 +2254,19 @@
 	}
 
 	/* table-section css start */
-	.comparison-table th {
+
+	.table-container {
+		border-radius: 15px;
+		overflow-x: auto;
+	}
+	/* .comparison-table th {
 		padding: 22px 20px;
 		vertical-align: middle;
 	}
 
-	.table-container td.metric-label {
+	.comparison-table-container td.metric-label {
 		padding: 22px 20px;
+		text-align: left;
 	}
 
 	.comparison-table td {
@@ -2248,7 +2281,7 @@
 		font-size: 15px;
 	}
 
-	.table-container {
+	.comparison-table-container {
 		border-radius: 14px;
 	}
 
@@ -2269,7 +2302,7 @@
 	.why_main td.metric-label,
 	.why_main td.trilokn-cell {
 		font-size: 13px !important;
-	}
+	} */
 
 	/* vetting-section */
 	.stage-card .stage-icon {
@@ -2584,12 +2617,12 @@
 	}
 
 	/* table-section css start */
-	.comparison-table th {
+	/* .comparison-table th {
 		padding: 1rem 1rem;
 		vertical-align: middle;
 	}
 
-	.table-container td.metric-label {
+	.comparison-table-container td.metric-label {
 		padding: 16px 16px;
 	}
 
@@ -2607,7 +2640,28 @@
 
 	.why_main .comparison-table td {
 		font-size: 12px;
+	} */
+
+	.comparison-table {
+		min-width: 650px;
 	}
+	.why_main .comparison-table td {
+        font-size: 12px;
+    }
+	th.header-label{min-width:100px;line-height:1.2;font-weight:700;}
+	th.header-trilokn{min-width:135px;}
+	th.header-competitor{min-width:115px;font-weight:600;}
+	.header-label-text{margin-top:0px;}
+	.comparison-table th{padding:10px 14px;font-size:11px!important;}
+	.why_main .comparison-table td{padding:14px 14px;}
+	.comparison-table .metric-label,
+	.comparison-table .trilokn-cell{font-weight:700!important;}
+	.header-trilokn .company-name{font-weight:700;}
+	.why_main th.header-competitor,
+	.comparison-table td.why-font,
+	.why_main td.metric-label,
+	.why_main td.trilokn-cell{font-size:12px!important;}
+	.why_main span.company-name{font-size:12px!important;}
 
 	/* end */
 
