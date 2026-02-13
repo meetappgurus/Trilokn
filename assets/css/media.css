@@ -3007,6 +3007,44 @@
 	}
 
 	/* overview css end */
+
+	/* success review stories - success story page */
+	.outer-padding {
+		padding: 0 16px;
+	}
+
+	.success-review-stories {
+		border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+	}
+
+	.success-review-stories .review-list {
+		max-width: 100%;
+		gap: 9px 60px;
+		padding: 14px 16px;
+	}
+
+	.success-review-stories .review-list-wrapper {
+		overflow: hidden;
+		padding: 0 16px;
+	}
+
+	.success-review-stories .review-list h3 {
+		font-size: 16px;
+	}
+
+	.success-review-stories .badge-rating {
+		gap: 4px;
+	}
+
+	.success-review-stories.padding-b-60.padding-t-60 {
+		padding: 30px 0 !important;
+	}
+
+	/* end */
 }
 
 @media (max-width: 481px) {
