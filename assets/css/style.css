@@ -380,15 +380,20 @@ img {
 /* Hover State CSS BOF */
 .btn:hover,
 .btn:focus,
-.btn:active,
-.btn:focus-visible,
-:not(.btn-check)+.btn:active {
+.btn:focus-visible {
   background-color: var(--theme-secondary);
   color: var(--theme-white);
-  /* border: 1px solid var(--theme-secondary); */
-  /* color: var(--theme-secondary); */
   box-shadow: none;
   outline: none;
+}
+
+.btn:active,
+:not(.btn-check)+.btn:active {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
 }
 
 /*border buttone css BOF*/
@@ -515,8 +520,6 @@ button {
   padding: 14px 32px;
   border-radius: 8px;
   font-weight: 600;
-  /* box-shadow: 0 10px 25px rgba(124, 58, 237, 0.3); */
-  /* border: 2px solid transparent; */
 }
 
 .btn-outline-custom {
