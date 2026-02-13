@@ -537,6 +537,17 @@ button {
   color: var(--theme-primary);
 }
 
+.btn-secondary:active,
+.btn-secondary:first-child:active,
+.btn-primary-custom:active,
+.btn-primary:first-child:active,
+.btn-secondary-custom:active,
+.btn-secondary-custom:first-child:active {
+  background-color: var(--theme-secondary) !important;
+  border-color: transparent !important;
+  color: var(--theme-white) !important;
+}
+
 /*tab active*/
 .tab-bg-top {
   background: var(--theme-secondary);
