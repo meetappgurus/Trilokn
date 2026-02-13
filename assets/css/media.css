@@ -448,6 +448,18 @@
 	}
 
 	/* end */
+
+	/* Success-story page css start */
+	.overlaytext-wrap {
+		gap: 16px;
+	}
+
+	.playicon {
+		width: 60px;
+		height: 60px;
+	}
+
+	/* end */
 }
 
 @media (max-width: 1499px) {
@@ -1602,6 +1614,18 @@
 	}
 
 	/* end */
+
+	/* Success-story page css start */
+	.overlaytext-wrap h3 {
+		font-size: 20px;
+	}
+
+	.success-story-hero .service-herobanner .hiring-card .role-name {
+		margin: 5px 0 0;
+		font-size: 14px;
+	}
+
+	/* end */
 }
 
 /*=========================================================
@@ -2247,6 +2271,19 @@
 		max-width: 180px;
 		aspect-ratio: 180 / 90;
 		padding: 20px 20px;
+	}
+
+	/* end */
+
+	/* Success-story page css start */
+	.success-story-hero .service-herobanner .hiring-card.verify-card {
+		gap: 10px;
+		bottom: -26px;
+		left: -16px;
+	}
+
+	.success-story-hero .service-herobanner .hiring-card .role-name {
+		font-size: 12px;
 	}
 
 	/* end */
@@ -3106,6 +3143,22 @@
 	.companiesListSlider .logo-slide {
 		aspect-ratio: auto;
 		padding: 14px 14px;
+	}
+
+	/* end */
+
+	/* Success-story page css start */
+	.success-story-hero .service-herobanner .hiring-card.verify-card {
+		left: -24px;
+	}
+
+	.overlaytext-wrap {
+		padding: 20px;
+	}
+
+	.playicon {
+		width: 50px;
+		height: 50px;
 	}
 
 	/* end */
