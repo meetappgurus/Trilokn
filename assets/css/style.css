@@ -744,6 +744,7 @@ textarea.form-control {
 
 .hero .hero-title span {
   color: var(--theme-primary);
+  line-height: 1.1;
 }
 
 .hero .hero-text {
@@ -3892,7 +3893,7 @@ body.compensate-for-scrollbar {
 
 .success-review-stories .right-domain-col h2 {
   color: var(--theme-secondary);
-  margin-bottom: 14px;
+  margin-bottom: 14px !important;
 }
 
 .success-review-stories .review-list-wrapper {
@@ -3934,9 +3935,14 @@ body.compensate-for-scrollbar {
 .success-review-stories .review-list .badgetext {
   font-size: 12px;
   letter-spacing: 1px;
+  line-height: 1.2;
   text-transform: uppercase;
   color: #64748B;
   font-weight: 700;
+}
+
+.success-review-stories .badgebrandimg {
+  height: 26px;
 }
 
 /* end */
