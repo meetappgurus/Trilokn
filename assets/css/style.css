@@ -4477,19 +4477,28 @@ p.technical-card-text {
 .studies-cards-box {
   border-radius: 20px;
   border: 1px solid var(--theme-gray-800);
-  /* box-shadow: 0 10px 25px rgba(124, 58, 237, 0.3); */
   height: 100%;
+  will-change: transform;
+  transition: transform .4s ease, box-shadow .4s ease;
+  -webkit-transition: transform .4s ease, box-shadow .4s ease;
+  -moz-transition: transform .4s ease, box-shadow .4s ease;
+  -ms-transition: transform .4s ease, box-shadow .4s ease;
+  -o-transition: transform .4s ease, box-shadow .4s ease;
 }
 
 .studies-cards-box:hover {
-  transform: translateY(-5px);
-  transition: .3s ease-in-out cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: .3s ease-in-out cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.06);
+  transform: translateY(-8px);
+  -webkit-transform: translateY(-8px);
+  -moz-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  -o-transform: translateY(-8px);
 }
 
 .studiesbox-top {
   padding: 30px;
   border-radius: 20px 20px 0 0;
+  background-color: var(--brand-light);
 }
 
 .studies-bottom {
@@ -4498,10 +4507,13 @@ p.technical-card-text {
 
 span.poster-title {
   border-radius: 20px;
-  padding: 5px 15px;
+  padding: 6px 12px;
   background: var(--theme-primary);
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-transform: uppercase;
   display: inline-block;
 }
 
@@ -4509,32 +4521,31 @@ span.poster-title {
   align-content: center;
 }
 
-/* .studies-top-right {
-  position: absolute;
-  top: 30px;
-  right: 48px;
-} */
-
-.studiesbox-top .studies-top-num {
+.studies-top-right {
   position: absolute;
   top: 0px;
   right: 0px;
-  font-size: 22px;
-  color: var(--theme-primary);
-  opacity: 0.5;
-  font-weight: 900;
 }
 
-h2.studies-nums {
+.studiesbox-top .studies-top-num {
+  font-size: 22px;
+  color: var(--theme-gray-900);
+  opacity: 0.5;
+  font-weight: 900;
+  display: inline-block;
+  transition: .3s ease;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -o-transition: .3s ease;
+}
+
+.studies-cards-top .studies-nums {
   font-size: 28px;
   color: var(--brand-purple);
   margin-right: 10px;
 }
 
-.studies-cards-box:hover .studies-top-right {
-  color: var(--theme-secondary);
-  opacity: 0.5;
-}
 
 .studies-cards-box:hover .studies-top-num {
   color: var(--theme-secondary);
@@ -4546,16 +4557,14 @@ h2.studies-nums {
   padding: 30px;
 }
 
-.story-btn hr{
+.story-btn hr {
   margin-top: 0;
 }
 
-p.studies-bottom-text {
+.studies-bottom .studies-bottom-text {
   color: var(--brand-purple);
   font-weight: 700;
-  font-size: 18px;
-  /* padding-bottom: 20px; */
-  /* border-bottom: 1px solid var(--theme-gray-800); */
+  font-size: 16px;
 }
 
 .studies-bottom-top hr {
@@ -4592,7 +4601,7 @@ a.study-btn {
   border: 1px solid #E5E7EB;
   border-radius: 10px;
   padding: 8px 35px 8px 15px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   background-color: var(--theme-grey);
   background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%231A1A2E' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -4634,18 +4643,27 @@ a.study-btn {
 .studiesbox-top p {
   font-style: italic;
   font-size: 13px;
+  margin-bottom: 30px;
 }
 
-.studiesbox-top .studies-cards-bottom-right .h5 {
+.studiesbox-top .studies-cards-bottom-right span {
   font-weight: 700;
   letter-spacing: 1.05px;
   font-size: 14px;
   text-transform: uppercase;
+  color: #94a3b8;
 }
 
 .studiesbox-top .system-text {
   font-size: 22px;
-  line-height: 1.1;
+  line-height: 1.2;
+}
+
+.studies-card-main .studies-top-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-right: 35px;
 }
 
 /* Studies section css end */
