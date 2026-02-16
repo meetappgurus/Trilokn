@@ -441,6 +441,11 @@ img {
   outline: none;
 }
 
+.core-vertical-btn.btn:active,
+.core-vertical-btn.btn:focus {
+  border-color: transparent;
+}
+
 .btn {
   position: relative;
   overflow: hidden;
@@ -3274,6 +3279,7 @@ h2.display {
 /* core ecosystem section - service */
 .w-middle {
   width: 70%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -4345,6 +4351,15 @@ body.compensate-for-scrollbar {
   justify-content: center;
 }
 
+.next-story-main-buttons .btn-outline-custom {
+  color: var(--bs-white);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.next-story-main-buttons .btn-outline-custom:hover {
+  border-color: rgba(255, 255, 255, 1);
+}
+
 /* Next story section css end */
 
 .common-bottom {
@@ -4368,23 +4383,30 @@ body.compensate-for-scrollbar {
 }
 
 .excellence-section .badge-text {
-  padding: 5px 10px;
+  display: inline-block;
+  padding: 7px 12px;
   text-transform: uppercase;
   letter-spacing: 0.3em;
   font-size: 10px;
   font-weight: 900;
   border: 1px solid var(--theme-secondary);
   border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
-.count-cards-main-item h5 {
-  font-size: 15px;
-  letter-spacing: 4px;
+.count-cards-main-item h3 {
+  font-size: 12px;
+  letter-spacing: 3px;
   font-weight: 800;
+  text-transform: uppercase;
 }
 
-.count-cards-main-item h4 {
+.excellence-section .count-cards-main-item h4 {
   font-size: 20px;
+  margin: 18px 0 0
 }
 
 .excellence-top-small {
@@ -4428,9 +4450,14 @@ body.compensate-for-scrollbar {
   align-items: center;
   justify-content: center;
   font-size: 20px;
+  margin-bottom: 30px;
   font-weight: 700;
   transition: transform 500ms var(--ease-out);
   -webkit-transition: transform 500ms var(--ease-out);
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
 }
 
 .count-cards-main-item:hover .count-top-right-ldash,
@@ -4462,13 +4489,19 @@ body.compensate-for-scrollbar {
   padding: 40px;
   border-radius: 40px;
   background: var(--Dark-Blue);
-  border: 2px solid #2d343e;
+  border: 1px solid #2d343e;
 }
 
 p.technical-card-text {
-  color: var(--brand-purple);
-  font-size: 16px;
+  color: var(--theme-secondary);
+  font-size: 12px;
   font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.excellence-section .count-vertical-border {
+  align-items: center;
 }
 
 /* Excellence section css end */
