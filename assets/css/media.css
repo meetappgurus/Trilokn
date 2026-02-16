@@ -3745,6 +3745,16 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 10px;
+		width: 100%;
+	}
+
+	.studies-filter-dropdown select {
+		width: 100%;
+	}
+
+	.studies-filter-dropdown {
+		flex: 0 0 auto;
+		width: 48%;
 	}
 
 	/* end */
@@ -3839,4 +3849,11 @@
 	}
 
 	/* end */
+	.studies-filter-dropdown {
+		width: 100%;
+	}
+
+	.wrap-filter-dropdown {
+		flex-direction: column;
+	}
 }
