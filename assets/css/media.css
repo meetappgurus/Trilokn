@@ -3668,6 +3668,7 @@
 
 	.studies-cards-top {
 		flex-direction: column;
+		align-items: start;
 	}
 
 	.studiesbox-top p {

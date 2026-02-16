@@ -4517,10 +4517,6 @@ span.poster-title {
   display: inline-block;
 }
 
-.studies-cards-bottom-right {
-  align-content: center;
-}
-
 .studies-top-right {
   position: absolute;
   top: 0px;
@@ -4538,6 +4534,10 @@ span.poster-title {
   -moz-transition: .3s ease;
   -ms-transition: .3s ease;
   -o-transition: .3s ease;
+}
+
+.studies-cards-top {
+  align-items: center;
 }
 
 .studies-cards-top .studies-nums {
