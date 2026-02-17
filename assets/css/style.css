@@ -4155,6 +4155,7 @@ body.compensate-for-scrollbar {
 
 .techSuccessSlider .ts-slide .overlay_badge {
   position: absolute;
+  z-index: 2;
   right: 16px;
   bottom: 16px;
   display: block;
@@ -4631,6 +4632,7 @@ a.study-btn {
 }
 
 .studies-filter-dropdown select {
+  color: var(--theme-black);
   border: 1px solid #E5E7EB;
   border-radius: 10px;
   padding: 8px 35px 8px 15px;
@@ -4640,17 +4642,18 @@ a.study-btn {
   background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%231A1A2E' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 12px center;
+  background-size: 12px;
   appearance: none;
   cursor: pointer;
-  /* min-width: 150px; */
+  min-width: 150px;
   width: auto;
   display: inline-block;
-  white-space: nowrap;
 }
 
-.studies-filter-dropdown select:focus {
+.studies-filter-dropdown select:focus,
+.studies-filter-dropdown select:focus-visible {
   outline: none;
-  border-color: var(--purple-primary);
+  border-color: var(--theme-primary);
   box-shadow: 0 0 0 3px rgba(91, 74, 199, 0.1);
 }
 
