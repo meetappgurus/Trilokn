@@ -3704,6 +3704,7 @@ h2.display {
 
 /* Success-story page css start */
 .success-story-hero .hero-image {
+  mix-blend-mode: unset !important;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
