@@ -226,6 +226,10 @@ $(document).ready(function () {
     autoplay: false,
     arrows: true,
     dots: false,
+    cssEase: "ease",
+    useTransform: true,
+    adaptiveHeight: false,
+    swipeToSlide: true,
 
     responsive: [
       {
@@ -251,6 +255,10 @@ $(document).ready(function () {
     autoplay: false,
     arrows: true,
     dots: false,
+    cssEase: "ease",
+    useTransform: true,
+    adaptiveHeight: false,
+    swipeToSlide: true,
 
     responsive: [
       {

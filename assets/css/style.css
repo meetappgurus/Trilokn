@@ -3714,6 +3714,11 @@ h2.display {
 .playicon {
   width: 80px;
   height: 80px;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
 }
 
 .overlaytext-wrap {
@@ -4045,6 +4050,11 @@ body.compensate-for-scrollbar {
   display: inline-block;
   width: 100%;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
 }
 
 .leadersExperienceSlider .tl-slide h3 {
@@ -4113,6 +4123,11 @@ body.compensate-for-scrollbar {
   position: absolute;
   bottom: 16px;
   right: 16px;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
 }
 
 .leadersExperienceSlider .playicon {
@@ -4151,6 +4166,8 @@ body.compensate-for-scrollbar {
   overflow: hidden;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 .techSuccessSlider .ts-slide .overlay_badge {
@@ -4159,6 +4176,9 @@ body.compensate-for-scrollbar {
   right: 16px;
   bottom: 16px;
   display: block;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+
 }
 
 .techSuccessSlider .ts-slide .success-story-badge {
