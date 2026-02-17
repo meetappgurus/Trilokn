@@ -4717,6 +4717,11 @@ a.study-btn {
 .studiesbox-top .system-text {
   font-size: 22px;
   line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .studies-card-main .studies-top-left {
