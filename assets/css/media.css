@@ -1966,6 +1966,13 @@
 	}
 
 	/* end */
+
+	/* contact-us section css start */
+	.contact-info-content {
+		padding-left: 10px;
+	}
+
+	/* end */
 }
 
 /*=========================================================
@@ -2687,8 +2694,36 @@
 
 	/* contact section start */
 
-	.contact-info-container {
-		
+	.contact-section .contact-container {
+		padding: 30px;
+		border-radius: 15px;	
+	}
+
+	.contact-info-card .pool {
+		border-radius: 15px;
+		width: 55px;
+		height: 55px;
+	}
+
+	.contact-info-card {
+		padding: 20px;
+		margin-bottom: 15px;
+		border-radius: 15px;
+	}
+
+	.contact-cta-card {
+		padding: 25px;
+		border-radius: 15px;
+	}
+
+	.contact-main-control {
+		font-size: 15px;
+		border-radius: 10px;
+	}
+
+	.contact-select {
+		border-radius: 10px;
+		font-size: 15px;
 	}
 
 	/* end */
@@ -2959,6 +2994,21 @@
 	.excellence-section .technical-card .row {
 		gap: 30px 0;
 	}
+	
+	/* contact section start */
+
+	.contact-section .contact-container {
+		padding: 30px;
+		border-radius: 10px;
+		margin-bottom: 30px;	
+	}
+
+	.contact-cta-card,
+	.contact-info-card {
+		border-radius: 10px;
+	}
+
+	/* end */
 }
 
 @media (max-width: 575px) {

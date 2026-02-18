@@ -4732,3 +4732,206 @@ a.study-btn {
 }
 
 /* Studies section css end */
+
+/* Contact-Us section css start */
+
+/* Left Column - Form */
+.contact-container {
+  background: var(--white);
+  border-radius: 20px;
+  border: 1px solid #eef0f2;
+  padding: 40px;
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); */
+}
+
+.contact-header h2 {
+  font-weight: 700;
+}
+
+.contact-header p {
+  color: var(--theme-body);
+}
+
+.contact-group {
+  margin-bottom: 24px;
+}
+
+.contact-label {
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.contact-main-control {
+  width: 100%;
+  padding: 13px 13px;
+  font-size: 19px;
+  font-weight: 400;
+  color: var(--text-primary);
+  background-color: var(--theme-grey);
+  border: 1px solid #eef0f2;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.contact-main-control:focus {
+  outline: none;
+  border-color: var(--brand-purple);
+  box-shadow: 0 0 0 4px rgba(91, 74, 199, 0.1);
+  background-color: var(--white);
+}
+
+.contact-main-control::placeholder {
+  color: #9CA3AF;
+  font-size: 16px;
+}
+
+.contact-select {
+  width: 100%;
+  padding: 13px 13px;
+  font-size: 19px;
+  font-weight: 400;
+  color: #9CA3AF;
+  background-color: var(--theme-grey);
+  border: 1px solid #eef0f2;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  font-family: 'Inter', sans-serif;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L7 7L13 1' stroke='%239CA3AF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 48px;
+  cursor: pointer;
+}
+
+.contact-select:focus {
+  outline: none;
+  border-color: var(--brand-purple);
+  box-shadow: 0 0 0 4px rgba(91, 74, 199, 0.1);
+  background-color: var(--bg-white);
+  color: var(--theme-black);
+}
+
+.contact-select option {
+  color: var(--theme-primary);
+}
+
+textarea.contact-main-control {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+} */
+
+.send-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 32px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: var(--theme-primary);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 8px;
+}
+
+.send-btn:hover {
+  background-color: var(--theme-black);
+  transform: translateY(-2px);
+  /* box-shadow: 0 8px 20px rgba(91, 74, 199, 0.3); */
+}
+
+/* Right Column - Info Cards */
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-info-card{
+  background: var(--white);
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid #eef0f2;
+  align-items: center;
+  /* gap: 16px; */
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.contact-info-content {
+  padding-left: 16px;
+}
+
+.contact-info-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.contact-info-content h3 {
+  font-weight: 600;
+  color: var(--theme-black);
+  margin-bottom: 4px;
+}
+
+.contact-info-content p {
+  /* color: var(--text-secondary); */
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Call to Action Card */
+.contact-cta-card {
+  background: linear-gradient(135deg, #F3F1FF 0%, #d3d0e4 100%);
+  border-radius: 16px;
+  padding: 30px;
+  border: 1px solid #E0DBFF;
+}
+
+.contact-cta-card h3 {
+  font-weight: 700;
+}
+
+.contact-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  color: var(--theme-primary);
+  background-color: white;
+  border: 1px solid var(--theme-primary);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-cta-btn:hover {
+  background-color: var(--theme-primary);
+  color: white;
+  border-color: var(--theme-primary);
+  /* transform: translateX(4px); */
+}
+
+.contact-cta-btn svg {
+  transition: transform 0.3s ease;
+}
+
+.contact-cta-btn:hover svg {
+  transform: translateX(4px);
+}
+
+/* Contact-Us section css end */

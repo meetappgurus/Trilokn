@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>Success Stories - Trilokn</title>
+    <title>Contact-Us - Trilokn</title>
 
     <!-- ================ /GOOGLE FONT EOC =================== -->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.svg">
@@ -339,76 +339,81 @@
                     <div class="contact-main">
                         <div class="row">
                             <!-- Left Column - Contact Form -->
-                            <div class="contact-container col-lg-8 col-12">
-                                <div class="contact-header">
-                                    <h2 class="h2 mb-2 black_text">Send a Message</h2>
-                                    <p class="font-20 mb-5 mb-md-4">We'll respond within 48 hours.</p>
+                            <div class="col-lg-8 col-12">
+                                <div class="contact-container mb-lg-0 mb-md-5 mb-sm-4">
+                                    <div class="contact-header mb-5 mb-lg-5">
+                                        <h2 class="h2 mb-2 black_text">Send a Message</h2>
+                                        <p class="font-20 mb-0">We'll respond within 48 hours.</p>
+                                    </div>
+                
+                                    <form id="contactForm" class="contactForm">
+                                        <div class="row d-flex">
+                                            <div class="contact-group col-lg-6 col-12">
+                                                <label class="contact-label h6 black_text" for="firstName">First Name</label>
+                                                <input type="text" class="contact-main-control" id="firstName" placeholder="First Name"
+                                                    required>
+                                            </div>
+                
+                                            <div class="contact-group col-lg-6 col-12">
+                                                <label class="contact-label h6 black_text" for="lastName">Last Name</label>
+                                                <input type="text" class="contact-main-control" id="lastName" placeholder="Last Name"
+                                                    required>
+                                            </div>
+                                        </div>
+                
+                                        <div class="row d-flex">
+                                            <div class="contact-group col-lg-6 col-12">
+                                                <label class="contact-label h6 black_text" for="email">Enterprise Email</label>
+                                                <input type="email" class="contact-main-control" id="email"
+                                                    placeholder="Email" required>
+                                            </div>
+
+                                            <div class="contact-group col-lg-6 col-12">
+                                                <label class="contact-label h6 black_text" for="phone">Phone Number</label>
+                                                <input type="tel" class="contact-main-control" id="phone" placeholder="Phone"
+                                                    required>
+                                            </div>
+                                        </div>
+                
+                                        <!-- <div class="contact-group">
+                                            <label class="contact-label black_text" for="service">Service Interest</label>
+                                            <select class="contact-select" id="service" required>
+                                                <option value="" disabled selected>Select a service</option>
+                                                <option value="web-development">Web Development</option>
+                                                <option value="mobile-development">Mobile Development</option>
+                                                <option value="cloud-solutions">Cloud Solutions</option>
+                                                <option value="ai-ml">AI & Machine Learning</option>
+                                                <option value="consulting">Consulting</option>
+                                                <option value="other">Other</option>
+                                            </select>
+                                        </div> -->
+                
+                                        <div class="contact-group">
+                                            <label class="contact-label h6 black_text" for="message">Message</label>
+                                            <textarea class="contact-main-control" id="message"
+                                                placeholder="Tell us about your project..."></textarea>
+                                        </div>
+                
+                                        <a href="javascript:void(0)">
+                                            <button type="submit" class="btn btn-primary-custom font-14">
+                                                <!-- <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M18.3333 1.66669L9.16667 10.8334M18.3333 1.66669L12.5 18.3334L9.16667 10.8334M18.3333 1.66669L1.66667 7.50002L9.16667 10.8334"
+                                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg> -->
+                                                <img src="./assets/images/contact-us/send-icon.svg" alt="" class="send-icon-img">
+                                                Submit Message
+                                            </button>
+                                        </a>
+                                    </form>
                                 </div>
-            
-                                <form id="contactForm" class="contactForm">
-                                    <div class="row d-flex">
-                                        <div class="contact-group col-lg-6 col-12">
-                                            <label class="contact-label h6 black_text" for="fullName">Full Name</label>
-                                            <input type="text" class="contact-main-control" id="fullName" placeholder="John Doe" required>
-                                        </div>
-            
-                                        <div class="contact-group col-lg-6 col-12">
-                                            <label class="contact-label h6 black_text" for="email">Enterprise Email</label>
-                                            <input type="email" class="contact-main-control" id="email" placeholder="john@company.com"
-                                                required>
-                                        </div>
-                                    </div>
-            
-                                    <div class="row d-flex">
-                                        <div class="contact-group col-lg-6 col-12">
-                                            <label class="contact-label h6 black_text" for="phone">Phone Number</label>
-                                            <input type="tel" class="contact-main-control" id="phone" placeholder="+91 98765 43210"
-                                                required>
-                                        </div>
-            
-                                        <div class="contact-group col-lg-6 col-12">
-                                            <label class="contact-label h6 black_text" for="company">Company Name</label>
-                                            <input type="text" class="contact-main-control" id="company" placeholder="Acme Inc." required>
-                                        </div>
-                                    </div>
-            
-                                    <div class="contact-group">
-                                        <label class="contact-label" for="service">Service Interest</label>
-                                        <select class="contact-select" id="service" required>
-                                            <option value="" disabled selected>Select a service</option>
-                                            <option value="web-development">Web Development</option>
-                                            <option value="mobile-development">Mobile Development</option>
-                                            <option value="cloud-solutions">Cloud Solutions</option>
-                                            <option value="ai-ml">AI & Machine Learning</option>
-                                            <option value="consulting">Consulting</option>
-                                            <option value="other">Other</option>
-                                        </select>
-                                    </div>
-            
-                                    <div class="contact-group">
-                                        <label class="contact-label h6 black_text" for="message">Message</label>
-                                        <textarea class="contact-main-control" id="message" placeholder="Tell us about your project..."
-                                            required></textarea>
-                                    </div>
-            
-                                    <button type="submit" class="btn btn-primary-custom font-14">
-                                        <!-- <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M18.3333 1.66669L9.16667 10.8334M18.3333 1.66669L12.5 18.3334L9.16667 10.8334M18.3333 1.66669L1.66667 7.50002L9.16667 10.8334"
-                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg> -->
-                                        Send Message
-                                    </button>
-                                </form>
                             </div>
             
                             <!-- Right Column - Contact Info -->
-                            <div class="contact-info-container col-lg-4 col-12">
+                            <div class="col-lg-4 col-12 contact-info-container mb-md-1">
                                 <div class="contact-info-top">
                                     <!-- Office Card -->
-                                    <div class="contact-info-card d-flex mb-3 mb-md-2">
+                                    <div class="contact-info-card d-flex">
                                         <div class="pool">
                                             <img src="./assets/images/contact-us/location-icon.svg" alt="" class="location-icon-img">
                                         </div>
@@ -417,9 +422,9 @@
                                             <p class="font-14">Ahmedabad, Gujarat, India</p>
                                         </div>
                                     </div>
-                                
+                            
                                     <!-- Email Card -->
-                                    <div class="contact-info-card d-flex mb-3 mb-md-2">
+                                    <div class="contact-info-card d-flex">
                                         <div class="pool">
                                             <img src="./assets/images/contact-us/envelope-icon.svg" alt="" class="envelope-icon">
                                         </div>
@@ -428,9 +433,9 @@
                                             <p class="font-14">hello@trilokin.com</p>
                                         </div>
                                     </div>
-                                
+                            
                                     <!-- Phone Card -->
-                                    <div class="contact-info-card d-flex mb-3 mb-md-2">
+                                    <div class="contact-info-card d-flex">
                                         <div class="pool">
                                             <img src="./assets/images/contact-us/phone-icon.svg" alt="" class="phone-icon-img">
                                         </div>
@@ -440,13 +445,13 @@
                                         </div>
                                     </div>
                                 </div>
-            
+                            
                                 <div class="contact-info-bottom">
                                     <!-- CTA Card -->
                                     <div class="contact-cta-card">
                                         <h3 class="h4 black_text mb-2 mb-md-1">Need it fast?</h3>
-                                        <p class="font-14 black_text mb-3 mb-md-2">Book a 15-min discovery call.</p>
-                                        <a href="#" class="contact-cta-btn font-14">
+                                        <p class="font-14 black_text mb-3 mb-md-3 mb-sm-2">Book a 15-min discovery call.</p>
+                                        <a href="javascript:void(0)" class="contact-cta-btn font-14">
                                             Book a Call
                                             <span class="btn-arrow">→</span>
                                         </a>
@@ -617,6 +622,30 @@
 			</div>
 		</footer>
     </div>
+    <script>
+        // Form submission handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const formData = {
+                firstName: document.getElementById('firstName').value,
+                lastName: document.getElementById('lastName').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                // service: document.getElementById('service').value,
+                message: document.getElementById('message').value
+            };
+            
+            console.log('Form submitted:', formData);
+            
+            // Show success message
+            alert('Thank you! Your message has been sent successfully. We\'ll respond within 48 hours.');
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
 
     <!-- =================== /WEB JS BOC ==================== -->
     <script type="text/javascript" src="./assets/js/jquery3.7.1/jquery-3.7.1.min.js"></script>
