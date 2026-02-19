@@ -2661,14 +2661,14 @@ h2.display {
 
 .unlocked-section .floating-card {
   position: absolute;
-  bottom: 6rem;
+  bottom: 9rem;
   /* right: 4rem; */
   background: white;
   padding: 2rem;
   border-radius: 3rem;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
   border: 1px solid #f1f5f9;
-  max-width: 400px;
+  max-width: 440px;
   animation: float 6s ease-in-out infinite;
 }
 

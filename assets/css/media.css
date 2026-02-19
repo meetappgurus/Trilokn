@@ -518,6 +518,15 @@
 	}
 
 	/* end */
+
+	/* unlocked section */
+	.unlocked-section .floating-card {
+		bottom: 4rem;
+		padding: 3rem;
+		border-radius: 3rem;
+		max-width: 400px;
+	}
+	/* end */
 }
 
 @media (max-width: 1499px) {
@@ -547,6 +556,13 @@
 		padding: 22px;
 		font-size: 17px;
 		border-radius: 18px;
+	}
+
+	.unlocked-section .floating-card {
+		bottom: 3rem;
+		padding: 2rem;
+		border-radius: 2rem;
+		max-width: 400px;
 	}
 
 	/* end */
@@ -745,6 +761,13 @@
 
 	.unlocked-section .metric-value {
 		font-size: 24px;
+	}
+
+	.unlocked-section .floating-card {
+		bottom: 4rem;
+		padding: 2rem;
+		border-radius: 2rem;
+		max-width: 340px;
 	}
 
 	/* end */
@@ -1185,6 +1208,13 @@
 		font-size: 17px;
 	}
 
+	.unlocked-section .floating-card {
+		bottom: 2rem;
+		padding: 2.2rem;
+		border-radius: 2.2rem;
+		max-width: 340px;
+	}
+
 	/* end */
 
 	/* overview css start */
@@ -1542,6 +1572,7 @@
 		bottom: -5rem;
 		padding: 1.5rem;
 		border-radius: 2rem;
+		max-width: 280px;
 	}
 
 	/* end */
